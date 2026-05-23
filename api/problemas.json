@@ -1,0 +1,2697 @@
+[
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula el límite:\n  lim(x→3)  (x³ - 27) / (x² - 9)\n\nFactoriza cuidadosamente numerador y denominador antes de cancelar."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Parcial",
+    "enunciado": "Evalúa:\n  lim(x→0)  (√(1+x) - 1) / x\n\nRacionaliza el numerador multiplicando por el conjugado."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Final",
+    "enunciado": "Calcula el límite lateral y determina si el límite existe:\n  lim(x→2)  |x-2| / (x²-4)\n\nAnaliza x→2⁺ y x→2⁻ por separado."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Parcial",
+    "enunciado": "Encuentra las asíntotas horizontales y verticales de:\n  f(x) = (3x² - 5x + 1) / (x² - 4)\n\nDetermina también el comportamiento en x→±∞."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Final",
+    "enunciado": "Evalúa:\n  lim(x→∞)  x · sin(1/x)\n\nHint: haz la sustitución t = 1/x y analiza el límite resultante."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula:\n  lim(x→∞)  (1 + a/x)^x\n\nExpresa el resultado en términos de e y justifica usando la definición del número e."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Regla de L'Hôpital",
+    "dificultad": "Parcial",
+    "enunciado": "Usa L'Hôpital para calcular:\n  lim(x→0)  (e^x - 1 - x) / x²"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Regla de L'Hôpital",
+    "dificultad": "Final",
+    "enunciado": "Aplica L'Hôpital las veces necesarias:\n  lim(x→0)  (sin x - x + x³/6) / x⁵"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Regla de L'Hôpital",
+    "dificultad": "Avanzado",
+    "enunciado": "Evalúa la forma indeterminada 0·∞ convirtiéndola a 0/0 o ∞/∞:\n  lim(x→0⁺)  x · ln(x)\n\nLuego deduce lim(x→0⁺) x^x."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Continuidad y clasificación de discontinuidades",
+    "dificultad": "Parcial",
+    "enunciado": "Clasifica la discontinuidad de f en x=0 y x=2:\n  f(x) = (x²-4) / (x(x-2))\n\nDetermina si alguna es removible y redefine f para hacerla continua."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Continuidad y clasificación de discontinuidades",
+    "dificultad": "Final",
+    "enunciado": "Encuentra los valores de a y b que hacen continua en todo ℝ a:\n  f(x) = { ax² + b,     x < 1\n           3x - 1,      1 ≤ x ≤ 2\n           b·x - a,     x > 2 }"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Usa la definición límite de la derivada para encontrar f'(x) si:\n  f(x) = √(3x + 1)\n\nNo uses atajos — aplica lim(h→0) [f(x+h)-f(x)]/h directamente."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva usando reglas (producto, cociente, cadena):\n  f(x) = (x² + 1)³ · e^(2x) / sin(x)"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Final",
+    "enunciado": "Encuentra f'(x) para:\n  f(x) = arctan(√(x²-1)) - ln(x + √(x²-1))\n\nSimplifica al máximo la expresión resultante."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Parcial",
+    "enunciado": "Encuentra dy/dx si:\n  x³ + 3xy + y³ = 7\n\nDiferencia implícitamente y despeja dy/dx."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Final",
+    "enunciado": "Dada la curva implícita x·sin(y) + y·cos(x) = 1:\na) Encuentra dy/dx.\nb) Determina la ecuación de la recta tangente en (0, π/2)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Avanzado",
+    "enunciado": "Si f(x) = g(h(x)) y se sabe que:\n  g(2)=5, g'(2)=-3, h(1)=2, h'(1)=4\n\nCalcula f'(1). Luego, si además g''(2)=6 y h''(1)=1, calcula f''(1)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva:\n  f(x) = x^(sin x)\n\nUsa logaritmos para transformar antes de derivar (logarithmic differentiation)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Final",
+    "enunciado": "Encuentra f'(x) para cada función:\n  a) f(x) = arcsin(2x√(1-x²))\n  b) f(x) = ln|sec(x) + tan(x)|\n  c) f(x) = e^(x²) · erfc(x)  [donde erfc'(x) = -2e^(-x²)/√π]"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra que si y = (arcsin x)² entonces:\n  (1-x²)·y'' - x·y' = 2\n\nLuego usa inducción para encontrar la fórmula general de y^(n)(0)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Final",
+    "enunciado": "Una escalera de 10 m recarga contra una pared vertical. Su pie se aleja a 0.5 m/s.\na) ¿A qué rapidez baja el tope cuando la base está a 6 m de la pared?\nb) ¿A qué ángulo con el suelo estará en ese instante, y con qué rapidez cambia ese ángulo?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Final",
+    "enunciado": "Una caja sin tapa, de base cuadrada, se construye con 300 cm² de cartón.\na) Escribe el volumen V en función del lado x de la base.\nb) Encuentra las dimensiones que maximizan el volumen.\nc) Verifica que es un máximo usando la segunda derivada."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Avanzado",
+    "enunciado": "Un canal de irrigación tiene sección transversal trapezoidal de fondo b y lados que forman ángulo θ con la vertical.\nDado que el perímetro mojado P = b + 2h/cos θ es fijo (para minimizar pérdidas), demuestra que la sección hidráulica óptima satisface b = 2h·tan θ y que el ángulo óptimo es θ = 30° (sección semicircular inscrita)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula la integral:\n  ∫ (x³ - 3x + 2) / x² dx\n\nDivide antes de integrar término a término."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Usa sustitución u:\n  ∫ x·e^(x²) dx     y     ∫ sin³(x)·cos(x) dx"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Final",
+    "enunciado": "Evalúa:\n  ∫ (2x + 3) / (x² + 4x + 13) dx\n\nCompleta el cuadrado en el denominador y separa en dos integrales."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Parcial",
+    "enunciado": "Sea F(x) = ∫₁^(x²) ln(t) dt.\nCalcula F'(x) usando el Teorema Fundamental del Cálculo (parte 1)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Final",
+    "enunciado": "Calcula el área exacta entre las curvas:\n  y = x³   e   y = 4x\n\nEncuentra las intersecciones, dibuja (mentalmente) la región y evalúa la integral apropiada."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra que:\n  ∫₀^(π/2) ln(sin x) dx = -(π/2)·ln 2\n\nHint: usa la simetría del seno y la integral de ln(cos x), luego suma ambas."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Parcial",
+    "enunciado": "Evalúa:\n  ∫ x²·sin(x) dx\n\nAplica integración por partes dos veces."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  ∫ e^x·sin(x) dx\n\nAplica partes dos veces y resuelve la ecuación resultante despejando la integral."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Avanzado",
+    "enunciado": "Usando la fórmula de reducción derivada por partes, prueba que:\n  ∫₀^(π/2) sinⁿ(x) dx = ((n-1)/n)·∫₀^(π/2) sinⁿ⁻²(x) dx\n\nLuego evalúa ∫₀^(π/2) sin⁷(x) dx."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Series de Taylor y aproximaciones",
+    "subtema": "Polinomio de Taylor",
+    "dificultad": "Final",
+    "enunciado": "Encuentra el polinomio de Taylor de grado 4 de f(x) = cos(x) alrededor de x₀ = π/3.\nUsa el polinomio para aproximar cos(61°) y estima el error usando el término de Lagrange."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Series de Taylor y aproximaciones",
+    "subtema": "Polinomio de Taylor",
+    "dificultad": "Avanzado",
+    "enunciado": "Determina el polinomio de Maclaurin de orden n para f(x) = ln(1+x).\nPrueba que la serie converge para -1 < x ≤ 1 usando la prueba del cociente.\nLuego evalúa ln(1.2) con error < 0.001."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Sustitución trigonométrica",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula:\n  ∫ √(9 - x²) dx\n\nUsa x = 3·sin θ y convierte de regreso a x al final."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Sustitución trigonométrica",
+    "dificultad": "Final",
+    "enunciado": "Evalúa:\n  ∫ x³ / (x² + 4)^(3/2) dx\n\nUsa la sustitución x = 2·tan θ."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Sustitución trigonométrica",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula mediante sustitución apropiada:\n  ∫₀^1  x⁴·√(1-x²) dx\n\nExpresa el resultado usando la función Beta o directamente."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Fracciones parciales",
+    "dificultad": "Parcial",
+    "enunciado": "Descompón en fracciones parciales y evalúa:\n  ∫ (3x² + 5x - 2) / [(x-1)(x+2)(x+1)] dx"
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Fracciones parciales",
+    "dificultad": "Final",
+    "enunciado": "Evalúa:\n  ∫ (x³ + 2) / [x·(x²+1)²] dx\n\nEl denominador tiene un factor repetido de segundo grado; configura la descomposición correctamente."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Fracciones parciales",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula:\n  ∫ 1 / (x⁴ - 1) dx\n\nFactoriza completamente x⁴-1 sobre ℝ y aplica fracciones parciales."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Integrales impropias",
+    "dificultad": "Parcial",
+    "enunciado": "Determina convergencia/divergencia y evalúa si converge:\n  ∫₁^∞  1/x^p dx   para los casos p=1, p=2, p=1/2"
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Integrales impropias",
+    "dificultad": "Final",
+    "enunciado": "Evalúa (si converge):\n  ∫₋∞^∞  x·e^(-x²) dx   y   ∫₀^∞  e^(-ax)·cos(bx) dx  (a>0)"
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Técnicas de integración avanzadas",
+    "subtema": "Integrales impropias",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra que la integral gaussiana ∫₋∞^∞ e^(-x²) dx = √π\nusando el truco de calcular [∫₋∞^∞ e^(-x²) dx]² en coordenadas polares."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Series infinitas",
+    "subtema": "Convergencia y criterios",
+    "dificultad": "Parcial",
+    "enunciado": "Aplica el criterio adecuado y concluye convergencia/divergencia:\n  a) Σ(n=1→∞) n² / (n³+1)\n  b) Σ(n=1→∞) (-1)ⁿ / √n\n  c) Σ(n=1→∞) n! / nⁿ"
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Series infinitas",
+    "subtema": "Convergencia y criterios",
+    "dificultad": "Final",
+    "enunciado": "Determina convergencia absoluta, condicional o divergencia:\n  Σ(n=1→∞) (-1)ⁿ · n / (n² + 1)\n\nJustifica cada paso indicando qué criterio aplicas."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Series infinitas",
+    "subtema": "Convergencia y criterios",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra o refuta: si Σaₙ converge, entonces Σaₙ² converge.\n¿Y el recíproco? Construye ejemplos o contraejemplos para ambas direcciones."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Series infinitas",
+    "subtema": "Series de potencias",
+    "dificultad": "Final",
+    "enunciado": "Encuentra el radio e intervalo de convergencia de:\n  Σ(n=1→∞) (-1)ⁿ·(x-2)ⁿ / (n·3ⁿ)\n\nVerifica convergencia en los extremos del intervalo."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Series infinitas",
+    "subtema": "Series de potencias",
+    "dificultad": "Avanzado",
+    "enunciado": "La función f(x) = ∫₀^x sin(t²) dt no tiene antiderivada elemental.\na) Expresa f como serie de potencias.\nb) Estima f(0.5) con error < 10⁻⁶.\nc) Determina el radio de convergencia."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Series infinitas",
+    "subtema": "Series de Fourier (introducción)",
+    "dificultad": "Avanzado",
+    "enunciado": "Encuentra la serie de Fourier de f(x) = x en [-π, π] con período 2π.\nUsa la igualdad de Parseval para deducir que:\n  Σ(n=1→∞) 1/n² = π²/6"
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Aplicaciones de la integral",
+    "subtema": "Longitud de arco y superficie de revolución",
+    "dificultad": "Final",
+    "enunciado": "Calcula la longitud del arco de la curva:\n  y = (1/3)·x^(3/2) - x^(1/2)   desde x=1 hasta x=4\n\nSimplifica √(1+(dy/dx)²) antes de integrar."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Aplicaciones de la integral",
+    "subtema": "Longitud de arco y superficie de revolución",
+    "dificultad": "Avanzado",
+    "enunciado": "La catenaria y = a·cosh(x/a) describe la forma de un cable colgante.\na) Calcula la longitud de arco entre x=-L y x=L.\nb) Halla el área de la superficie de revolución al girar alrededor del eje x."
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Aplicaciones de la integral",
+    "subtema": "Trabajo, presión y momentos",
+    "dificultad": "Final",
+    "enunciado": "Un depósito cónico (vértice abajo) de altura 4 m y radio superior 2 m está lleno de agua (ρ=1000 kg/m³).\n¿Cuánto trabajo se necesita para bombear toda el agua hasta 1 m sobre el borde superior?"
+  },
+  {
+    "materia": "Cálculo II",
+    "tema": "Aplicaciones de la integral",
+    "subtema": "Trabajo, presión y momentos",
+    "dificultad": "Avanzado",
+    "enunciado": "Una presa tiene compuerta rectangular vertical de 3 m de ancho y 2 m de alto, con el borde superior a 5 m bajo la superficie.\nCalcula la fuerza hidrostática total sobre la compuerta (ρ_agua = 1000 kg/m³, g = 9.8 m/s²)."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Funciones vectoriales",
+    "subtema": "Curvas en el espacio",
+    "dificultad": "Parcial",
+    "enunciado": "Sea r(t) = (t·cos t, t·sin t, t).\na) Calcula el vector velocidad r'(t) y la rapidez |r'(t)|.\nb) Encuentra la longitud del arco de t=0 a t=2π."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Funciones vectoriales",
+    "subtema": "Curvas en el espacio",
+    "dificultad": "Final",
+    "enunciado": "Para la hélice r(t) = (cos t, sin t, t):\na) Calcula el vector tangente unitario T̂, el normal principal N̂ y el binormal B̂.\nb) Determina la curvatura κ y la torsión τ."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Definición, plano tangente y diferencial",
+    "dificultad": "Parcial",
+    "enunciado": "Para f(x,y) = e^(xy) · ln(x+y):\na) Calcula ∂f/∂x y ∂f/∂y en el punto (1,0).\nb) Escribe la ecuación del plano tangente en (1,0, f(1,0))."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Definición, plano tangente y diferencial",
+    "dificultad": "Final",
+    "enunciado": "El volumen de un cono es V = πr²h/3. Si r se mide con error de 0.1 cm y h con error de 0.2 cm, cuando r=5 cm y h=12 cm, usa el diferencial total para estimar el error máximo en V."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Definición, plano tangente y diferencial",
+    "dificultad": "Avanzado",
+    "enunciado": "Verifica el Teorema de Schwarz (igualdad de derivadas cruzadas) y demuestra que no siempre se cumple.\nPara f(x,y) = xy(x²-y²)/(x²+y²) si (x,y)≠(0,0), y f(0,0)=0:\nCalcula fₓᵧ(0,0) y fᵧₓ(0,0) desde la definición. ¿Son iguales?"
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Regla de la cadena multivariable",
+    "dificultad": "Final",
+    "enunciado": "Si z = f(x,y), x = r·cos θ, y = r·sin θ, demuestra que:\n  (∂z/∂x)² + (∂z/∂y)² = (∂z/∂r)² + (1/r²)(∂z/∂θ)²\n\nEsta es la transformación del gradiente a coordenadas polares."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Regla de la cadena multivariable",
+    "dificultad": "Avanzado",
+    "enunciado": "La ecuación de ondas ∂²u/∂t² = c²·∂²u/∂x² se transforma con el cambio ξ = x+ct, η = x-ct.\nDemuestra que la ecuación se convierte en ∂²u/∂ξ∂η = 0, cuya solución general es u = f(ξ) + g(η) (solución de D'Alembert)."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Gradiente, derivada direccional y optimización",
+    "dificultad": "Parcial",
+    "enunciado": "f(x,y) = x² + 2xy - y³.\na) Calcula ∇f en P=(1,-1).\nb) Encuentra la derivada direccional en P en la dirección hacia Q=(3,2).\nc) ¿En qué dirección crece f más rápido en P?"
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Gradiente, derivada direccional y optimización",
+    "dificultad": "Final",
+    "enunciado": "Encuentra y clasifica todos los puntos críticos de:\n  f(x,y) = x³ - 3x + y⁴ - 2y²\n\nUsa la prueba de la segunda derivada (determinante Hessiano)."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Derivadas parciales",
+    "subtema": "Gradiente, derivada direccional y optimización",
+    "dificultad": "Avanzado",
+    "enunciado": "Usa multiplicadores de Lagrange para encontrar el punto de la intersección de los planos\nx + y + z = 1   y   2x - y + z = 4\nmás cercano al origen.\nLuego verifica tu resultado minimizando directamente x²+y²+z² con las restricciones."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Integrales múltiples",
+    "subtema": "Integral doble en coordenadas cartesianas",
+    "dificultad": "Parcial",
+    "enunciado": "Evalúa cambiando el orden de integración:\n  ∫₀^1 ∫_x^1 e^(y²) dy dx\n\n(La integral en el orden original no tiene antiderivada elemental.)"
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Integrales múltiples",
+    "subtema": "Integral doble en coordenadas cartesianas",
+    "dificultad": "Final",
+    "enunciado": "Calcula el volumen del sólido acotado superiormente por z = 4 - x² - y² e inferiormente por z = x² + y² - 2."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Integrales múltiples",
+    "subtema": "Integral doble en coordenadas polares",
+    "dificultad": "Final",
+    "enunciado": "Evalúa en polares:\n  ∬_D (x² + y²)^(3/2) dA\n  D: x² + y² ≤ 4, y ≥ 0"
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Integrales múltiples",
+    "subtema": "Integral doble en coordenadas polares",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula el área de la región interior a la cardioide r = 1 + cos θ y exterior al círculo r = 1."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Integrales múltiples",
+    "subtema": "Integral triple",
+    "dificultad": "Final",
+    "enunciado": "Encuentra el momento de inercia Iz = ∭_E (x²+y²) dV del cilindro sólido x²+y²≤a², 0≤z≤h, con densidad constante ρ.\nUsa coordenadas cilíndricas."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Integrales múltiples",
+    "subtema": "Integral triple",
+    "dificultad": "Avanzado",
+    "enunciado": "Evalúa en coordenadas esféricas:\n  ∭_E z dV\n  E: esfera x²+y²+z²≤4 con z≥0 (hemisferio superior)\n\nVerifica también con coordenadas cilíndricas."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Cálculo vectorial",
+    "subtema": "Integrales de línea y campos conservativos",
+    "dificultad": "Final",
+    "enunciado": "Verifica si F = (2xy + z², x² + 2yz, 2xz + y²) es conservativo.\nSi lo es, encuentra el potencial φ tal que F = ∇φ y evalúa la integral de línea de (0,0,0) a (1,2,3)."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Cálculo vectorial",
+    "subtema": "Integrales de línea y campos conservativos",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula ∮_C F·dr donde F = (-y, x, z²) y C es la curva de intersección del cilindro x²+y²=1 con el plano y+z=2, recorrida en sentido antihorario visto desde arriba.\nUsa el Teorema de Stokes."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Cálculo vectorial",
+    "subtema": "Teorema de Green, Stokes y Gauss",
+    "dificultad": "Final",
+    "enunciado": "Usa el Teorema de Green para calcular ∮_C (y³ dx - x³ dy) donde C es el círculo x²+y²=4 recorrido en sentido antihorario."
+  },
+  {
+    "materia": "Cálculo III",
+    "tema": "Cálculo vectorial",
+    "subtema": "Teorema de Green, Stokes y Gauss",
+    "dificultad": "Avanzado",
+    "enunciado": "Usa el Teorema de la Divergencia para calcular ∬_S F·dS donde F = (x³, y³, z³) y S es la superficie cerrada del cubo [0,1]³.\nCompara el esfuerzo de calcular las 6 integrales de superficie directamente vs. el teorema."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "EDO de primer orden",
+    "dificultad": "Parcial",
+    "enunciado": "Resuelve la EDO exacta:\n  (2xy + y²)dx + (x² + 2xy)dy = 0\n\nVerifica primero que es exacta (∂M/∂y = ∂N/∂x) y luego encuentra la función potencial."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "EDO de primer orden",
+    "dificultad": "Final",
+    "enunciado": "Resuelve la ecuación de Bernoulli:\n  y' + (2/x)·y = x²·y³\n\nUsa la sustitución v = y^(1-n) para linealizarla."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "EDO de primer orden",
+    "dificultad": "Avanzado",
+    "enunciado": "Modelado: Una mezcla en un tanque de 1000 L contiene inicialmente 50 g de sal.\nEntra solución con 2 g/L a 5 L/min y sale la mezcla a 5 L/min.\na) Plantea y resuelve la EDO para la cantidad Q(t) de sal.\nb) ¿Cuánto tiempo tarda en haber 400 g de sal?\nc) ¿Cuál es la concentración de equilibrio?"
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "EDO de segundo orden lineal",
+    "dificultad": "Parcial",
+    "enunciado": "Resuelve la EDO homogénea:\n  y'' - 5y' + 6y = 0\n  y(0) = 2, y'(0) = 1"
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "EDO de segundo orden lineal",
+    "dificultad": "Final",
+    "enunciado": "Usa el método de coeficientes indeterminados para resolver:\n  y'' + 4y = 3sin(2t)\n\nObserva la resonancia: la parte homogénea y la forzada tienen la misma frecuencia."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "EDO de segundo orden lineal",
+    "dificultad": "Avanzado",
+    "enunciado": "Un sistema masa-resorte-amortiguador tiene m=1 kg, c=2 N·s/m, k=5 N/m,\ncon fuerza externa F(t) = 4·cos(2t) N y condiciones x(0)=0, x'(0)=0.\na) Encuentra la solución completa x(t).\nb) Identifica solución transitoria y estacionaria.\nc) Calcula la amplitud de estado estacionario y la frecuencia de resonancia del sistema."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "Sistemas de EDOs y transformada de Laplace",
+    "dificultad": "Final",
+    "enunciado": "Usa la transformada de Laplace para resolver:\n  y'' + 3y' + 2y = e^(-t)\n  y(0)=1, y'(0)=0\n\nAplica fracciones parciales en el espacio de Laplace."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales ordinarias",
+    "subtema": "Sistemas de EDOs y transformada de Laplace",
+    "dificultad": "Avanzado",
+    "enunciado": "Resuelve el sistema con Laplace:\n  x'(t) = 4x - y + u(t-1)\n  y'(t) = 2x + y\n  x(0) = y(0) = 0\n\ndonde u(t-1) es la función escalón unitario con retardo 1."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Análisis vectorial avanzado",
+    "subtema": "Teoremas integrales",
+    "dificultad": "Final",
+    "enunciado": "Demuestra la identidad de Green:\n  ∬_D (φ·∇²ψ - ψ·∇²φ) dA = ∮_∂D (φ·∂ψ/∂n - ψ·∂φ/∂n) ds\n\npartiendo del Teorema de la Divergencia en 2D."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Análisis vectorial avanzado",
+    "subtema": "Teoremas integrales",
+    "dificultad": "Avanzado",
+    "enunciado": "Resuelve el problema de valor en la frontera usando la identidad de Green:\n  ∇²u = -f(x,y) en D\n  u = 0 en ∂D\n\nExpresa la solución mediante la función de Green G(x,y;ξ,η)."
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales parciales",
+    "subtema": "Ecuación del calor y de onda",
+    "dificultad": "Final",
+    "enunciado": "Resuelve la ecuación del calor por separación de variables:\n  ∂u/∂t = α²·∂²u/∂x²,  0<x<L, t>0\n  u(0,t)=u(L,t)=0,  u(x,0)=sin(πx/L)"
+  },
+  {
+    "materia": "Cálculo IV",
+    "tema": "Ecuaciones diferenciales parciales",
+    "subtema": "Ecuación del calor y de onda",
+    "dificultad": "Avanzado",
+    "enunciado": "Resuelve la ecuación de onda:\n  ∂²u/∂t² = c²·∂²u/∂x²,  0<x<1\n  u(0,t)=u(1,t)=0\n  u(x,0)=x(1-x),  ∂u/∂t(x,0)=0\n\nExpresa la solución como serie de Fourier en seno y analiza la energía del sistema."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Cinemática",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §2.5 — Un tren parte del reposo y acelera a 1.40 m/s².\na) ¿Cuánto tarda en alcanzar 80 km/h?\nb) ¿Cuánta distancia recorre en ese tiempo?\nc) ¿Cuál es su desplazamiento entre t=10 s y t=20 s?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Cinemática",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §2.8 — Una piedra cae desde un puente y se escucha el splash 3.00 s después de soltarla.\nVelocidad del sonido = 340 m/s, g = 9.80 m/s².\nPlantea y resuelve la ecuación (cuadrática) para encontrar la altura del puente.\n(No ignores el tiempo del sonido.)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Cinemática",
+    "subtema": "Movimiento relativo y cinemática vectorial",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §4.6 — Un bote puede cruzar un río de 200 m de ancho. La corriente va a 1.5 m/s y el bote a 2.5 m/s relativo al agua.\na) Si apunta perpendicular a la orilla, ¿en qué punto llega y cuánto tarda?\nb) ¿Con qué ángulo debe apuntar para cruzar en la mínima distancia?\nc) ¿Cuál es el ángulo y el tiempo para cruzar en línea recta perpendicular?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Cinemática",
+    "subtema": "Movimiento relativo y cinemática vectorial",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §4 — Dos partículas A y B se mueven con velocidades constantes:\n  v_A = (3î - 4ĵ) m/s desde r_A0 = (0,0) m\n  v_B = (-2î + 6ĵ) m/s desde r_B0 = (20, 10) m\na) Encuentra la posición relativa r_AB(t).\nb) ¿Se acercan? ¿En qué instante es mínima la distancia?\nc) ¿Cuál es esa distancia mínima?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Cinemática",
+    "subtema": "Proyectiles",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §4.3 — Un cañón dispara a 45° con v₀ = 150 m/s sobre terreno plano.\na) Altura máxima, alcance y tiempo de vuelo.\nb) ¿A qué otros ángulos logra el mismo alcance horizontal?\nc) ¿Cuál es el alcance máximo posible con esa v₀?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Cinemática",
+    "subtema": "Proyectiles",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §4.3 — Desde un acantilado de 80 m se lanza una pelota con v₀ = 20 m/s a 30° sobre la horizontal.\na) Tiempo total de vuelo.\nb) Alcance horizontal.\nc) Velocidad (módulo y dirección) al impactar.\nd) Altura máxima sobre el nivel del lanzamiento."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Cinemática",
+    "subtema": "Proyectiles",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §4 — Demuestra que para un proyectil lanzado desde altura h sobre el suelo con ángulo θ y rapidez v₀:\n  Alcance = (v₀·cos θ/g)·[v₀·sin θ + √(v₀²sin²θ + 2gh)]\n\nLuego deriva respecto a θ e iguala a cero para encontrar el ángulo óptimo en función de h."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Dinámica",
+    "subtema": "Leyes de Newton y planos inclinados",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §5.7 — Dos bloques están sobre un plano inclinado (θ=37°) conectados por una cuerda que pasa por una polea ideal.\nm₁ = 5 kg (sobre el plano, μₖ=0.20), m₂ = 8 kg (colgante).\na) Diagrama de cuerpo libre para cada bloque.\nb) Aceleración del sistema.\nc) Tensión en la cuerda."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Dinámica",
+    "subtema": "Leyes de Newton y planos inclinados",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §6 — Un bloque de 4 kg está sobre una mesa rugosa (μₛ=0.60, μₖ=0.40) y está unido por cuerdas a dos pesas:\n  • m₁ = 2 kg cuelga por el borde izquierdo\n  • m₂ = 6 kg cuelga por el borde derecho\na) ¿Se mueve el sistema? ¿En qué sentido?\nb) Calcula la aceleración y las tensiones T₁, T₂."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Dinámica",
+    "subtema": "Leyes de Newton y planos inclinados",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §6 — Un bloque de masa m reposa sobre una cuña de masa M que puede deslizarse sin fricción sobre el piso.\nEl ángulo de la cuña es θ, y la superficie bloque-cuña es rugosa (μₛ).\na) Encuentra la aceleración de la cuña.\nb) ¿Cuál es el valor mínimo de μₛ para que el bloque no resbale sobre la cuña?\n(Sistema complejo: el piso no aplica fricción a la cuña.)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Dinámica",
+    "subtema": "Dinámica circular y fuerzas ficticias",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §6.1 — Un auto de 1500 kg toma una curva circular de radio 100 m a 90 km/h.\na) Aceleración centrípeta.\nb) Fuerza de fricción necesaria.\nc) Coeficiente de fricción estática mínimo necesario.\nd) Si la curva está peraltada a 15°, ¿cuál es la velocidad ideal sin fricción?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Dinámica",
+    "subtema": "Dinámica circular y fuerzas ficticias",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §6 — Una bolita de masa m en el interior de un cuenco esférico de radio R describe un círculo horizontal a ángulo θ desde la vertical.\na) Demuestra que ω² = g/(R·cos θ).\nb) Para R = 0.5 m, θ = 30°, calcula ω y el período T.\nc) Si en vez de un cuenco la bolita está sobre un cono invertido de semiángulo α, ¿cuál sería ω?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Mecánica clásica: Dinámica",
+    "subtema": "Dinámica circular y fuerzas ficticias",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §6 — Un automóvil pasa sobre una loma de perfil circular (radio R=80 m) a velocidad v.\na) Encuentra la fuerza normal N en la cima en función de v.\nb) ¿A qué velocidad el auto 'despega' (N=0)?\nc) En el fondo de un valle del mismo radio, encuentra N.\nd) Un pasajero de 70 kg siente ¿cuánto pesa en cada caso a v = 60 km/h?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo, energía y conservación",
+    "subtema": "Trabajo y energía cinética",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §7.3 — Una fuerza variable F(x) = (3x² - 2x + 5) N actúa sobre una partícula.\nCalcula el trabajo realizado al desplazarla de x=0 a x=4 m.\nSi la masa es 2 kg y parte del reposo, ¿cuál es la rapidez final?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo, energía y conservación",
+    "subtema": "Trabajo y energía cinética",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §7 — Un resorte de k=800 N/m está comprimido 15 cm.\nUn bloque de 2 kg se coloca contra él (sin pegarse) sobre una superficie con μₖ=0.25.\na) Velocidad del bloque cuando el resorte recupera su longitud natural.\nb) Distancia total que recorre el bloque antes de detenerse."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo, energía y conservación",
+    "subtema": "Conservación de energía mecánica",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §8.2 — Una montaña rusa parte del reposo en la cima (h=45 m).\na) Rapidez en la base (h=0).\nb) Rapidez en un punto intermedio a h=20 m.\nc) Si hay fricción y llega a la base con v=25 m/s, ¿cuánta energía se perdió?\n(Despreciar la masa para a) y b), incluirla en c) si m=500 kg.)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo, energía y conservación",
+    "subtema": "Conservación de energía mecánica",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §8 — Una partícula se mueve en el potencial U(x) = 3x⁴ - 16x³ + 24x².\na) Encuentra los puntos de equilibrio y clasifícalos (estable/inestable).\nb) Si la partícula tiene energía total E=20 J, ¿en qué regiones puede estar?\nc) Encuentra la velocidad máxima y dónde ocurre."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo, energía y conservación",
+    "subtema": "Conservación de energía mecánica",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §8 — Demuestra que para un potencial central U(r), la energía efectiva es:\n  U_eff(r) = U(r) + L²/(2mr²)\n\ndonde L es el momento angular. Para U(r)=-k/r (Coulomb/gravitación):\na) Encuentra r_min (perihelio) y r_max (afelio) dados E y L.\nb) Muestra que las órbitas circulares ocurren en el mínimo de U_eff."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo, energía y conservación",
+    "subtema": "Cantidad de movimiento y colisiones",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §9.4 — En una colisión elástica 1D:\n  m₁ = 3 kg, v₁ = 5 m/s (→)\n  m₂ = 5 kg, v₂ = -2 m/s (←)\na) Velocidades finales.\nb) Verifica la conservación de KE.\nc) En el CM, ¿qué ocurre con las velocidades?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo, energía y conservación",
+    "subtema": "Cantidad de movimiento y colisiones",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §9 — Una partícula de masa m y rapidez v choca con otra de masa M en reposo con parámetro de impacto b (colisión no centrada, elástica).\na) Demuestra que el ángulo de dispersión Θ en el sistema CM es independiente de b para esferas duras de radio R, cuando b < R.\nb) Calcula la sección eficaz diferencial dσ/dΩ.\nc) ¿Qué fracción de las partículas se dispersa en ángulos > 90°?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación y dinámica de cuerpo rígido",
+    "subtema": "Cinemática de rotación y momento de inercia",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §10 — Un disco de radio 0.3 m y masa 5 kg parte del reposo y acelera angularmente a 2 rad/s².\na) Velocidad angular a t=5 s.\nb) Ángulo girado en ese tiempo.\nc) Aceleración tangencial y centrípeta de un punto en el borde a t=5 s.\nd) Momento de inercia del disco respecto a su centro."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación y dinámica de cuerpo rígido",
+    "subtema": "Cinemática de rotación y momento de inercia",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §10 — Usa integración directa para demostrar que el momento de inercia de:\na) Un cilindro sólido (masa M, radio R) respecto a su eje: I = MR²/2\nb) Una esfera sólida (masa M, radio R) respecto a un diámetro: I = 2MR²/5\nUsa el teorema de los ejes paralelos para encontrar I de la esfera respecto a una tangente."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación y dinámica de cuerpo rígido",
+    "subtema": "Dinámica rotacional y rodamiento",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §10 — Una esfera sólida de masa M y radio R rueda sin resbalar por un plano inclinado (θ=30°) desde el reposo.\na) Aceleración del CM usando Newton rotacional.\nb) ¿Cuál es la fricción necesaria? ¿Qué μ mínimo se requiere?\nc) Si el mismo plano tiene μ<μ_min, ¿cómo cambia la situación?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación y dinámica de cuerpo rígido",
+    "subtema": "Dinámica rotacional y rodamiento",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §11 — Un yo-yo (disco de masa M, radio R, eje de radio r) se suelta desde el reposo con la cuerda fija en la parte superior.\na) Aceleración del CM.\nb) Tensión en la cuerda.\nc) Condición para que el yo-yo ruede sin resbalar si hay una superficie.\nd) Comparar con un bloque de masa M en caída libre: ¿cuál llega antes?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Oscilaciones y gravitación",
+    "subtema": "Movimiento armónico simple",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §15 — Un bloque de 0.500 kg en un resorte (k=20 N/m) oscila con amplitud A=3 cm.\na) Frecuencia angular ω, frecuencia f y período T.\nb) Energía total del sistema.\nc) Rapidez máxima y en x=A/2.\nd) Aceleración máxima."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Oscilaciones y gravitación",
+    "subtema": "Movimiento armónico simple",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §15 — Demuestra que para un péndulo físico (cuerpo rígido oscilando alrededor de un eje a distancia d del CM, momento de inercia I):\n  T = 2π√(I/mgd)\n\nAplícalo a una varilla uniforme de longitud L oscilando desde un extremo.\nCompara T con el de un péndulo simple de la misma longitud."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Oscilaciones y gravitación",
+    "subtema": "Movimiento armónico simple",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §15 — Un oscilador amortiguado tiene m=1 kg, k=100 N/m, b=2 N·s/m.\na) Verifica que está subamortiguado (b < 2√(mk)).\nb) Escribe x(t) con x(0)=A, v(0)=0.\nc) Calcula el tiempo τ en que la amplitud cae a A/e.\nd) Factor de calidad Q = ω₀/γ.\ne) ¿Cuántas oscilaciones caben en el tiempo de decaimiento?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Oscilaciones y gravitación",
+    "subtema": "Gravitación universal",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §13 — Deduce la velocidad orbital y el período de un satélite circular de masa m en órbita a radio r de un planeta de masa M.\nAplica a la ISS (r ≈ 6770 km desde el centro terrestre): calcula v, T y la aceleración gravitacional experimentada."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Oscilaciones y gravitación",
+    "subtema": "Gravitación universal",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §13 — Prueba la 3ª Ley de Kepler T² ∝ a³ para órbitas elípticas.\nPista: usa la conservación de L = m·r×v, el área de la elipse = πab, y la velocidad de barrido dA/dt = L/(2m).\nExpresa T en función de los semiejes a y b, y muestra que b desaparece usando la relación de la elipse con el foco."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Electrostática",
+    "subtema": "Ley de Coulomb y campo eléctrico",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Halliday §21 — Tres cargas colineales: q₁=+4 μC en x=0, q₂=-6 μC en x=0.3 m, q₃=+2 μC en x=0.5 m.\na) Fuerza neta sobre q₂ (magnitud y dirección).\nb) Fuerza neta sobre q₃.\nc) ¿En qué punto del eje x (fuera de las cargas) el campo eléctrico es cero?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Electrostática",
+    "subtema": "Ley de Coulomb y campo eléctrico",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §23 — Un anillo delgado de radio R tiene carga total Q distribuida uniformemente.\nDemuestra que el campo eléctrico en el eje del anillo es:\n  E(x) = kQx / (x² + R²)^(3/2)\n\nEncuentra el punto del eje donde E es máximo y su valor."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Electrostática",
+    "subtema": "Ley de Coulomb y campo eléctrico",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §22 — Un disco de radio R tiene densidad superficial de carga σ uniforme.\na) Integra para encontrar E en el eje: E = (σ/2ε₀)[1 - x/√(x²+R²)]\nb) Verifica los casos límite: x→0 (plano infinito) y x>>R (carga puntual).\nc) Halla la fuerza sobre un dipolo eléctrico p⃗ = pî ubicado en el eje a distancia x."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Electrostática",
+    "subtema": "Ley de Gauss",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §24 — Usa la Ley de Gauss para encontrar E en todas las regiones de un cascarón esférico conductor de radios a y b, con carga Q.\nLuego añade una carga puntual -Q en el centro: rehace el análisis y calcula la densidad superficial de carga en cada superficie."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Electrostática",
+    "subtema": "Ley de Gauss",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §23 — Una esfera no conductora de radio R tiene densidad volumétrica de carga ρ(r) = ρ₀(1 - r/R).\na) Carga total Q en la esfera.\nb) E(r) para r<R y r>R usando Gauss.\nc) ¿En qué valor de r es E máximo interior?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Electrostática",
+    "subtema": "Potencial eléctrico",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §25 — Dos cargas +Q y -Q están en x=+d y x=-d respectivamente (dipolo).\na) Potencial V(x,y) en cualquier punto (aproximación exacta, no dipolar).\nb) Demuestra que para r>>d, V ≈ k·p·cos θ/r² (potencial dipolar).\nc) Calcula E⃗ a partir del gradiente de V en el límite dipolar."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Electrostática",
+    "subtema": "Potencial eléctrico",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §24 — La ecuación de Laplace ∇²V=0 en simetría esférica es (1/r²)d/dr(r²dV/dr)=0.\na) Resuelve para V(r) y muestra que V = A/r + B.\nb) Un conductor esférico de radio R tiene potencial V₀. Encuentra V(r) para r>R.\nc) Encuentra la carga inducida en un segundo cascarón de radio R₂ concéntrico puesto a tierra."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Corriente eléctrica y circuitos",
+    "subtema": "Resistencia, potencia y ley de Ohm",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §27 — Un conductor cilíndrico de cobre (ρ=1.7×10⁻⁸ Ω·m) de longitud 2 m y diámetro 1 mm.\na) Resistencia.\nb) Corriente cuando se aplican 5 V.\nc) Densidad de corriente J y campo E dentro.\nd) Potencia disipada y energía en 1 hora."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Corriente eléctrica y circuitos",
+    "subtema": "Resistencia, potencia y ley de Ohm",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §26 — El filamento de un foco de 100 W (tungsteno, ρ₀=5.6×10⁻⁸ Ω·m a 20°C, α=4.5×10⁻³/°C) opera a 120 V.\na) Resistencia en caliente.\nb) Si la temperatura de operación es 2900°C, encuentra ρ en caliente.\nc) ¿Cuánto más grueso/delgado debe ser el filamento frío para que la resistencia fría arranque la corriente correcta?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Corriente eléctrica y circuitos",
+    "subtema": "Leyes de Kirchhoff y análisis de circuitos",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §28 — Circuito con dos mallas:\n  Malla 1: ε₁=12V, R₁=4Ω, R₃=6Ω\n  Malla 2: ε₂=8V, R₂=3Ω, R₃=6Ω (compartida)\nAplica las leyes de Kirchhoff para encontrar las tres corrientes y verifica la conservación de energía."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Corriente eléctrica y circuitos",
+    "subtema": "Leyes de Kirchhoff y análisis de circuitos",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §27 — Circuito de puente de Wheatstone: R₁, R₂, R₃, R₄ en cuatro brazos y galvanómetro G en la diagonal.\na) Demuestra que la condición de equilibrio es R₁/R₂ = R₃/R₄.\nb) Si R₁=100Ω, R₂=200Ω, R₃=150Ω y R₄=desconocida, ¿cuál es R₄ en equilibrio?\nc) Fuera del equilibrio, usa superposición o nodos para encontrar la corriente por G."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Corriente eléctrica y circuitos",
+    "subtema": "Circuitos RC",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §28 — Un capacitor C=100 μF se carga a través de R=10 kΩ con ε=50 V.\na) Corriente y voltaje en el capacitor como función del tiempo.\nb) Tiempo τ (constante de tiempo).\nc) Carga acumulada en t=τ, 2τ, 5τ.\nd) Energía almacenada y disipada en el estado estacionario. ¿Cómo se comparan?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Corriente eléctrica y circuitos",
+    "subtema": "Circuitos RC",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §27 — Circuito RC con fuente alterna V(t) = V₀·cos(ωt).\na) Encuentra la solución de estado estacionario para la carga q(t).\nb) Amplitud y desfase de q respecto a V.\nc) Impedancia del circuito.\nd) Potencia promedio disipada en R."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Magnetismo y electrodinámica",
+    "subtema": "Fuerza magnética y movimiento de cargas",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Halliday §28 — Un protón (q=1.6×10⁻¹⁹ C, m=1.67×10⁻²⁷ kg) entra con v=3×10⁶ m/s al campo B=0.5T (⊙).\na) Radio de la trayectoria circular.\nb) Período y frecuencia ciclotrónica.\nc) Si el protón tiene también componente vz=10⁶ m/s paralela a B, describe la trayectoria 3D."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Magnetismo y electrodinámica",
+    "subtema": "Fuerza magnética y movimiento de cargas",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §29 — Un selector de velocidades usa E⃗ y B⃗ perpendiculares.\na) Condición v = E/B para que la partícula pase en línea recta.\nb) Pasada la ranura, la partícula entra en B' = 0.4 T y describe un semicírculo de 25 cm de radio. Masa de la partícula si q=e.\nc) Si hay dos isótopos de masas m y m+Δm, ¿cuánto se separan en el detector?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Magnetismo y electrodinámica",
+    "subtema": "Fuerza magnética y movimiento de cargas",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §28 — El efecto Hall: una lámina conductora (ancho a, grosor b) conduce corriente I en el campo B⊥.\na) Deriva la tensión Hall V_H = IB/(nqb) donde n es la densidad de portadores.\nb) Un semiconductor tiene V_H = 40 mV, I=2 mA, B=0.1 T, b=1 mm. Calcula n.\nc) ¿Cómo distingues si los portadores son electrones o huecos?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Magnetismo y electrodinámica",
+    "subtema": "Campo magnético y ley de Ampère",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §29 — Usa la Ley de Ampère para encontrar B en todas las regiones de un cable coaxial: conductor interior (radio a) con corriente I, cascarón exterior (radios b a c) con corriente -I.\nGrafica B(r) para 0 < r < 2c."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Magnetismo y electrodinámica",
+    "subtema": "Campo magnético y ley de Ampère",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Serway §30 — Una bobina toroidal de N vueltas, sección rectangular (a×b), radios interior R₁ y exterior R₂, lleva corriente I.\na) B(r) dentro del toroide usando Ampère.\nb) Flujo total Φ a través de la sección transversal.\nc) Inductancia propia L.\nd) Energía almacenada si I=2 A."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Magnetismo y electrodinámica",
+    "subtema": "Inducción electromagnética",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §31 — Una varilla conductora de longitud L=0.6 m se mueve a v=4 m/s sobre rieles separados L en presencia de B=0.8 T perpendicular al plano.\na) FEM inducida.\nb) Si los rieles están cerrados con R=2Ω, corriente inducida y potencia disipada.\nc) Fuerza necesaria para mantener v=cte.\nd) ¿Se conserva la energía? Verifica."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Magnetismo y electrodinámica",
+    "subtema": "Inducción electromagnética",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §30 — Demuestra la paradoja del disco de Faraday:\nUn disco conductor sólido de radio R gira con ω en B uniforme paralelo al eje.\nLa FEM entre el centro y el borde es ε = ½ωBR².\na) Deriva esto usando F = qv×B en un elemento del disco.\nb) ¿Por qué la Ley de Faraday convencional (ε=-dΦ/dt) falla aquí?\nc) ¿Cómo se resuelve la paradoja?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Ondas electromagnéticas y óptica",
+    "subtema": "Ondas EM y ecuaciones de Maxwell",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §33 — A partir de las ecuaciones de Maxwell en el vacío, deriva la ecuación de onda para E⃗.\nMuestra que la velocidad de propagación es c = 1/√(ε₀μ₀).\nCalcula c y compárala con el valor medido."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Ondas electromagnéticas y óptica",
+    "subtema": "Ondas EM y ecuaciones de Maxwell",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Serway §34 — La intensidad promedio de una onda EM plana es I = E₀²/(2μ₀c).\na) Deriva esta expresión a partir del vector de Poynting S⃗ = (1/μ₀)E⃗×B⃗.\nb) Un láser emite 1 mW en un haz de 1 mm de diámetro. Calcula E₀ y B₀.\nc) Calcula la presión de radiación sobre una superficie perfectamente absorbente."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Ondas electromagnéticas y óptica",
+    "subtema": "Óptica geométrica",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §36 — Una lente convergente de f=+20 cm tiene un objeto a 30 cm.\na) Posición y carácter de la imagen (ecuación del lente).\nb) Ampliación lateral.\nc) Repite para objeto a 10 cm.\nd) Sistema de dos lentes (f₁=20cm, f₂=-10cm) separadas 30 cm con objeto a 40 cm de L₁: posición final de la imagen."
+  },
+  {
+    "materia": "Física II",
+    "tema": "Ondas electromagnéticas y óptica",
+    "subtema": "Óptica geométrica",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §34 — Ángulo de Brewster y reflexión total interna:\na) Demuestra que el ángulo de Brewster satisface tan θ_B = n₂/n₁.\nb) Para vidrio n=1.52 en aire, calcula θ_B y el ángulo crítico θ_c.\nc) Un rayo pasa del vidrio al aire con ángulo de incidencia θ_B. ¿Qué ocurre con el rayo reflejado?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Ondas electromagnéticas y óptica",
+    "subtema": "Interferencia y difracción",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §37 — Doble rendija de Young: λ=600 nm, d=0.5 mm, L=2 m.\na) Posición de los 3 primeros máximos y 3 primeros mínimos.\nb) Separación franja brillante Δy.\nc) Si se sumerge todo en agua (n=1.33), ¿cómo cambia el patrón?"
+  },
+  {
+    "materia": "Física II",
+    "tema": "Ondas electromagnéticas y óptica",
+    "subtema": "Interferencia y difracción",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §36 — Rendija simple de ancho a:\na) Demuestra que los mínimos ocurren en sin θ = mλ/a (m=±1,±2,...)\n   usando la división en N pares de fuentes.\nb) ¿Cuál es el límite de resolución de Rayleigh para un telescopio de apertura D?\nc) El telescopio Hubble tiene D=2.4 m. ¿Puede resolver dos estrellas separadas 0.05 arcseg con λ=500 nm?"
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Relatividad especial",
+    "subtema": "Dilatación del tiempo y contracción de longitud",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §39 — Una nave viaja a v = 0.80c relativo a la Tierra.\na) El piloto mide que el viaje dura 10 años. ¿Cuánto dura en la Tierra?\nb) El piloto mide que la distancia al destino es 8 años-luz. ¿Qué distancia mide la Tierra?\nc) ¿Son consistentes los resultados con la velocidad v = 0.80c?"
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Relatividad especial",
+    "subtema": "Dilatación del tiempo y contracción de longitud",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §37 — Un muón (τ₀ = 2.2 μs en reposo) se crea a 10 km de altitud y viaja a v = 0.998c hacia la Tierra.\na) Vida media del muón en el marco de la Tierra.\nb) Distancia recorrida antes de desintegrar (en marco Tierra y en marco muón).\nc) ¿Por qué los muones llegan al suelo si clásicamente no deberían?"
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Relatividad especial",
+    "subtema": "Dilatación del tiempo y contracción de longitud",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §37 — La paradoja de los gemelos:\nEl gemelo A viaja a α-Centauri (4 años-luz) a v=0.90c y regresa.\na) Tiempo de viaje en el marco terrestre.\nb) Tiempo en el marco del gemelo A.\nc) ¿Cuántos años más joven es A al regresar?\nd) Explica físicamente por qué la situación NO es simétrica entre los gemelos."
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Relatividad especial",
+    "subtema": "Energía y momento relativistas",
+    "dificultad": "Final",
+    "enunciado": "Ref. Serway §39 — Un protón (m_p = 938.3 MeV/c²) se acelera a v = 0.995c.\na) Factor γ de Lorentz.\nb) Energía cinética relativista y compárala con la clásica ½mv².\nc) Momento relativista.\nd) Verifica: E² = (pc)² + (m₀c²)²"
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Relatividad especial",
+    "subtema": "Energía y momento relativistas",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §37 — En un acelerador, dos protones colisionan de frente cada uno con energía E_k = 2 GeV.\na) Energía total y momento en el marco del laboratorio.\nb) Masa invariante del sistema (s = invariante de Mandelstam).\nc) ¿Qué masa máxima de partículas puede producirse en esta colisión?\nd) Compara con el umbral de una colisión blanco fijo con la misma energía de haz."
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Cuántica introductoria",
+    "subtema": "Efecto fotoeléctrico y dualidad onda-partícula",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §40 — La función de trabajo del sodio es φ = 2.28 eV.\na) Frecuencia mínima para el efecto fotoeléctrico.\nb) Si λ = 200 nm, calcula la energía cinética máxima de los fotoelectrones.\nc) Potencial de frenado.\nd) Velocidad máxima de los electrones emitidos."
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Cuántica introductoria",
+    "subtema": "Efecto fotoeléctrico y dualidad onda-partícula",
+    "dificultad": "Final",
+    "enunciado": "Ref. Halliday §38 — Efecto Compton: Un fotón de λ = 0.0300 nm choca con un electrón en reposo y se dispersa a 45°.\na) Nueva longitud de onda del fotón.\nb) Energía cinética del electrón de retroceso.\nc) Dirección del electrón de retroceso."
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Cuántica introductoria",
+    "subtema": "Efecto fotoeléctrico y dualidad onda-partícula",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §38 — Principio de incertidumbre de Heisenberg:\na) Un electrón está confinado en una caja de ancho L = 0.1 nm (escala atómica).\n   Estima la incertidumbre en su velocidad.\nb) Un macrobjeto de 1 g está confinado en 1 cm. Estima la incertidumbre en v.\nc) ¿Por qué el principio de incertidumbre no afecta objetos macroscópicos?\nd) Usa ΔE·Δt ≥ ℏ/2 para estimar el ancho espectral de un nivel atómico con τ = 10 ns."
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Cuántica introductoria",
+    "subtema": "Átomo de hidrógeno y cuantización",
+    "dificultad": "Parcial",
+    "enunciado": "Ref. Serway §42 — Modelo de Bohr del hidrógeno:\na) Radios de Bohr para n=1,2,3.\nb) Energías de los niveles n=1,2,3 (en eV).\nc) Longitudes de onda de las transiciones Lyman (→n=1) y Balmer (→n=2) para n=2,3,4."
+  },
+  {
+    "materia": "Física Moderna",
+    "tema": "Cuántica introductoria",
+    "subtema": "Átomo de hidrógeno y cuantización",
+    "dificultad": "Avanzado",
+    "enunciado": "Ref. Halliday §40 — Pozo de potencial infinito 1D de ancho L:\na) Resuelve la ecuación de Schrödinger y obtén ψₙ(x) y Eₙ.\nb) Verifica la normalización ∫|ψₙ|²dx = 1.\nc) Calcula ⟨x⟩, ⟨x²⟩, ⟨p⟩, ⟨p²⟩ para el estado n.\nd) Verifica la relación de incertidumbre ΔxΔp ≥ ℏ/2."
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "tema": "Espacios vectoriales y transformaciones",
+    "subtema": "Dependencia lineal y bases",
+    "dificultad": "Parcial",
+    "enunciado": "Determina si los vectores v₁=(1,2,3), v₂=(2,5,7), v₃=(1,3,5) son L.I. o L.D.\nSi son L.D., expresa uno como combinación lineal de los otros.\nUsa reducción por filas (Gauss-Jordan)."
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "tema": "Espacios vectoriales y transformaciones",
+    "subtema": "Dependencia lineal y bases",
+    "dificultad": "Final",
+    "enunciado": "Sea W = {(x,y,z) ∈ ℝ³ : 2x - y + 3z = 0}.\na) Demuestra que W es subespacio de ℝ³.\nb) Encuentra una base para W.\nc) dim(W) = ? ¿Cuál es el complemento ortogonal W⊥?"
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "tema": "Espacios vectoriales y transformaciones",
+    "subtema": "Dependencia lineal y bases",
+    "dificultad": "Avanzado",
+    "enunciado": "Sea T: ℝ³ → ℝ³ la transformación lineal con matriz:\n  A = [[1,2,3],[0,1,4],[0,0,1]]\na) Encuentra Ker(T) y Im(T).\nb) Verifica el teorema dimensión-rango: dim(Ker) + dim(Im) = 3.\nc) ¿Es T inyectiva? ¿Sobreyectiva? ¿Invertible?\nd) Si lo es, calcula A⁻¹."
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "tema": "Espacios vectoriales y transformaciones",
+    "subtema": "Valores y vectores propios",
+    "dificultad": "Final",
+    "enunciado": "Para A = [[4,1],[2,3]]:\na) Calcula los valores propios.\nb) Encuentra los vectores propios correspondientes.\nc) Diagonaliza A: escribe A = PDP⁻¹.\nd) Calcula A⁸ usando la diagonalización."
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "tema": "Espacios vectoriales y transformaciones",
+    "subtema": "Valores y vectores propios",
+    "dificultad": "Avanzado",
+    "enunciado": "Para la matriz simétrica A = [[2,1,1],[1,2,1],[1,1,2]]:\na) Encuentra todos los valores propios.\nb) Ortogonaliza los vectores propios (Gram-Schmidt si es necesario).\nc) Escribe la descomposición espectral A = QΛQᵀ.\nd) ¿Es A positiva definida? Justifica con los criterios de Sylvester."
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "tema": "Sistemas lineales y factorizaciones",
+    "subtema": "Eliminación gaussiana y LU",
+    "dificultad": "Final",
+    "enunciado": "Factoriza A = [[2,4,-2],[1,3,1],[3,7,0]] en A = LU (sin pivoteo).\nLuego usa la factorización para resolver Ax = b con b = (2,1,5)."
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "tema": "Sistemas lineales y factorizaciones",
+    "subtema": "Eliminación gaussiana y LU",
+    "dificultad": "Avanzado",
+    "enunciado": "Dada A ∈ ℝ^(m×n) con m > n (sistema sobredeterminado), el sistema Ax=b generalmente no tiene solución exacta.\na) Define el problema de mínimos cuadrados: minimizar ||Ax - b||².\nb) Deriva las ecuaciones normales: AᵀAx = Aᵀb.\nc) Para A=[[1,1],[1,2],[1,3]], b=(1,2,2), resuelve las ecuaciones normales.\nd) Interpreta geométricamente: ¿qué representa la solución?"
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula sin usar L'Hôpital:\n  lim(x→0)  sin(5x) / (3x)\n\nHint: usa el límite fundamental lim(u→0) sin(u)/u = 1."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Parcial",
+    "enunciado": "Evalúa:\n  lim(x→0)  (1 - cos x) / x²\n\nMultiplica por (1+cos x)/(1+cos x) y usa el límite fundamental del seno."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  lim(x→0)  tan(3x) / sin(5x)\n\nExpresa tan(3x) = sin(3x)/cos(3x) y manipula para usar los límites fundamentales."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Final",
+    "enunciado": "Evalúa el límite:\n  lim(x→π/2)  (1 - sin x) / (π/2 - x)²\n\nHaz el cambio t = π/2 - x y reduce a un límite trigonométrico conocido."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra desde la definición (ε-δ) que:\n  lim(x→0)  x·sin(1/x) = 0\n\nObserva que |x·sin(1/x)| ≤ |x| para todo x ≠ 0 y úsalo en la demostración."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites con indeterminaciones exponenciales",
+    "dificultad": "Final",
+    "enunciado": "Calcula la forma indeterminada 1^∞:\n  lim(x→0)  (cos x)^(1/x²)\n\nEscribe como e^[lim (1/x²)·ln(cos x)] y usa L'Hôpital o equivalentes."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites con indeterminaciones exponenciales",
+    "dificultad": "Final",
+    "enunciado": "Evalúa:\n  lim(x→∞)  (1 + 3/x)^(2x)\n\nEscribe como [(1+3/x)^(x/3)]^6 e identifica la definición del número e."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Límites",
+    "subtema": "Límites con indeterminaciones exponenciales",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula la forma 0⁰:\n  lim(x→0⁺)  (sin x)^(tan x)\n\nToma logaritmo, aplica L'Hôpital al exponente y exponencia el resultado."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Diferenciación logarítmica",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva usando logaritmos:\n  f(x) = (3x+1)²·√(x²+5) / (x³-2)⁴\n\nToma ln de ambos lados, deriva implícitamente, y despeja f'(x)."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Diferenciación logarítmica",
+    "dificultad": "Final",
+    "enunciado": "Encuentra f'(x) si:\n  f(x) = x^(ln x)\n\nUsa logaritmos: ln f = (ln x)², luego diferencia."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Diferenciación logarítmica",
+    "dificultad": "Avanzado",
+    "enunciado": "Sea f(x) = (x+1)^(x+2)·(x+3)^(x+4).\nCalcula f'(0).\n\nAplica diferenciación logarítmica y evalúa en x=0."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Derivadas de orden superior",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula la derivada n-ésima de:\n  f(x) = e^(2x)·sin(x)\n\nHint: busca el patrón en f', f'', f''' y usa la fórmula general con amplitud r y ángulo φ."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Derivadas de orden superior",
+    "dificultad": "Final",
+    "enunciado": "Encuentra f^(n)(x) para:\n  f(x) = 1 / (1 - x)\n\nPrimero calcula f', f'', f''' y deduce la fórmula para f^(n)(x). Verifica por inducción."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Derivadas de orden superior",
+    "dificultad": "Avanzado",
+    "enunciado": "Usa la fórmula de Leibniz para la derivada n-ésima de un producto:\n  (fg)^(n) = Σ C(n,k) f^(k) g^(n-k)\n\nPara calcular la derivada 10ª de f(x) = x²·e^x. Expresa en forma cerrada."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Teorema del valor medio",
+    "dificultad": "Parcial",
+    "enunciado": "Verifica el Teorema del Valor Medio para:\n  f(x) = x³ - x   en   [0, 2]\n\nEncuentra todos los valores c que satisfacen la conclusión del teorema."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Teorema del valor medio",
+    "dificultad": "Final",
+    "enunciado": "Usa el TVM para demostrar que:\n  |sin a - sin b| ≤ |a - b|   para todo a, b ∈ ℝ\n\nAplica el TVM a f(x) = sin x en el intervalo [a, b] (o [b, a])."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Derivadas",
+    "subtema": "Teorema del valor medio",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra la desigualdad usando el TVM:\n  (b - a) / b < ln(b/a) < (b - a) / a   para 0 < a < b\n\nAplica el TVM a f(x) = ln x en [a, b]."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Sustitución trigonométrica avanzada",
+    "dificultad": "Final",
+    "enunciado": "Evalúa:\n  ∫ dx / [(x² + 2x + 5)²]\n\nCompleta el cuadrado, aplica sustitución trigonométrica x+1 = 2 tan θ."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Sustitución trigonométrica avanzada",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula:\n  ∫₀^(√3/2)  arcsin(x) dx\n\nUsa integración por partes con u = arcsin x, dv = dx y evalúa la integral resultante."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Integrales de funciones racionales",
+    "dificultad": "Parcial",
+    "enunciado": "Evalúa mediante fracciones parciales:\n  ∫ (x + 4) / (x² - x - 2) dx\n\nFactoriza el denominador primero."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Integrales de funciones racionales",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  ∫ (2x³ - x + 3) / (x² + 1)² dx\n\nDivide el polinomio impropio primero, luego descompón en fracciones parciales."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Integrales de funciones racionales",
+    "dificultad": "Avanzado",
+    "enunciado": "Evalúa la integral con raíz mediante sustitución de Euler:\n  ∫ dx / (x + √(x² - x + 1))\n\nUsa la sustitución √(x² - x + 1) = tx - 1 (sustitución de Euler tipo 3)."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Área y volúmenes de revolución",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula el área encerrada por:\n  y = x²   e   y = 2x + 3\n\nEncuentra las intersecciones, determina cuál curva está arriba y evalúa."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Área y volúmenes de revolución",
+    "dificultad": "Parcial",
+    "enunciado": "Usando el método de discos, calcula el volumen generado al girar alrededor del eje x la región acotada por:\n  y = √x,   y = 0,   x = 4"
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Área y volúmenes de revolución",
+    "dificultad": "Final",
+    "enunciado": "Calcula el volumen usando el método de cascarones cilíndricos (shells):\n  La región entre y = x² y y = x al girar alrededor del eje y.\n\nCompara con el resultado usando discos. ¿Son iguales?"
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Área y volúmenes de revolución",
+    "dificultad": "Final",
+    "enunciado": "Encuentra el volumen del sólido generado al girar alrededor de la recta x = 3\nla región acotada por:\n  x = y²   e   x = 1\n\nUsa cascarones cilíndricos con variable y."
+  },
+  {
+    "materia": "Cálculo Diferencial e Integral",
+    "tema": "Integrales",
+    "subtema": "Área y volúmenes de revolución",
+    "dificultad": "Avanzado",
+    "enunciado": "El perfil de una botella de vidrio se modela con:\n  r(x) = 1 + 0.5·sin(πx/10)   cm,   0 ≤ x ≤ 10\n\na) Calcula el volumen interior.\nb) Calcula la superficie lateral exterior.\nc) Estima numéricamente si las integrales no tienen forma cerrada."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Cinemática avanzada",
+    "subtema": "Movimiento circular y curvilíneo",
+    "dificultad": "Parcial",
+    "enunciado": "Un automóvil recorre una curva circular de radio R = 120 m a velocidad constante v = 20 m/s.\na) Calcula la aceleración centrípeta.\nb) ¿Cuánto tiempo tarda en dar una vuelta completa?\nc) Calcula la velocidad angular ω."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Cinemática avanzada",
+    "subtema": "Movimiento circular y curvilíneo",
+    "dificultad": "Final",
+    "enunciado": "Una partícula se mueve con posición r(t) = (3t², 4t³ - t, 2t) m.\na) Velocidad y aceleración en t = 1 s.\nb) Rapidez en t = 1 s.\nc) Componente tangencial y normal de la aceleración en t = 1 s."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Cinemática avanzada",
+    "subtema": "Movimiento circular y curvilíneo",
+    "dificultad": "Final",
+    "enunciado": "Un disco gira con aceleración angular constante α = 2 rad/s².\nParte del reposo.\na) ¿Con qué velocidad angular gira después de 5 s?\nb) ¿Cuántas vueltas da en esos 5 s?\nc) Si R = 0.3 m, calcula la aceleración total de un punto en el borde a t = 5 s."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Cinemática avanzada",
+    "subtema": "Movimiento circular y curvilíneo",
+    "dificultad": "Avanzado",
+    "enunciado": "Una partícula se mueve en una espiral con r(t) = e^(-t)(cos t, sin t, t).\na) Calcula |v(t)| y |a(t)|.\nb) Encuentra el ángulo entre v y a en t = 0.\nc) Calcula la longitud de arco recorrida de t=0 a t=2π."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Cinemática avanzada",
+    "subtema": "Movimiento de proyectiles — análisis completo",
+    "dificultad": "Parcial",
+    "enunciado": "Un balón se lanza con v₀ = 25 m/s a θ = 40° sobre la horizontal.\na) Altura máxima.\nb) Alcance horizontal.\nc) Tiempo total de vuelo.\nd) Velocidad al impactar el suelo."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Cinemática avanzada",
+    "subtema": "Movimiento de proyectiles — análisis completo",
+    "dificultad": "Final",
+    "enunciado": "Se lanza un proyectil desde lo alto de un edificio de 45 m con v₀ = 18 m/s horizontal.\na) ¿En qué tiempo choca con el suelo?\nb) ¿A qué distancia horizontal del edificio?\nc) Velocidad y dirección al impactar.\nd) ¿Cuál sería la velocidad mínima de lanzamiento para superar una pared de 10 m a 30 m de distancia?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Cinemática avanzada",
+    "subtema": "Movimiento de proyectiles — análisis completo",
+    "dificultad": "Avanzado",
+    "enunciado": "Un cañón en la cima de un acantilado de h = 80 m sobre el nivel del mar dispara con v₀ = 120 m/s a un ángulo θ sobre la horizontal (puede ser positivo o negativo).\na) Encuentra el ángulo θ que maximiza el alcance horizontal.\nb) Calcula ese alcance máximo.\nc) ¿Para qué ángulo θ el proyectil impacta exactamente en la base del acantilado?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Dinámica y leyes de Newton",
+    "subtema": "Aplicaciones con rozamiento",
+    "dificultad": "Parcial",
+    "enunciado": "Un bloque de 8 kg descansa sobre una superficie con μₛ = 0.45 y μₖ = 0.30.\na) ¿Qué fuerza mínima horizontal se necesita para ponerlo en movimiento?\nb) Una vez en movimiento, ¿cuál es la aceleración con una fuerza aplicada de 40 N?\nc) ¿Cuánto espacio recorre antes de detenerse si se retira la fuerza a v = 3 m/s?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Dinámica y leyes de Newton",
+    "subtema": "Aplicaciones con rozamiento",
+    "dificultad": "Final",
+    "enunciado": "Un bloque de masa m reposa sobre un plano inclinado θ = 25° con μₖ = 0.20.\na) ¿Se mueve el bloque? (μₛ = 0.40)\nb) Si baja, calcula su aceleración y velocidad al llegar al fondo (L = 4 m).\nc) ¿Qué ángulo mínimo haría que el bloque empiece a deslizarse?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Dinámica y leyes de Newton",
+    "subtema": "Aplicaciones con rozamiento",
+    "dificultad": "Final",
+    "enunciado": "Dos bloques m₁ = 5 kg y m₂ = 3 kg están conectados por una cuerda que pasa por una polea sin fricción.\nm₁ está sobre una mesa horizontal (μₖ = 0.25), m₂ cuelga verticalmente.\na) ¿Cuál es la aceleración del sistema?\nb) ¿La tensión en la cuerda?\nc) Velocidad de m₂ después de caer 1.5 m."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Dinámica y leyes de Newton",
+    "subtema": "Aplicaciones con rozamiento",
+    "dificultad": "Avanzado",
+    "enunciado": "Tres bloques m₁ = 2 kg, m₂ = 4 kg, m₃ = 6 kg están sobre una superficie con μₖ = 0.10.\nUna fuerza F = 36 N se aplica sobre m₁ empujando la cadena m₁–m₂–m₃.\na) Aceleración del sistema.\nb) Fuerza de contacto entre m₁ y m₂.\nc) Fuerza de contacto entre m₂ y m₃.\nd) Verifica con el diagrama de cuerpo libre de cada bloque."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Dinámica y leyes de Newton",
+    "subtema": "Dinámica circular",
+    "dificultad": "Final",
+    "enunciado": "Un carro de 1200 kg pasa por la cima de una colina circular de radio R = 50 m a v = 15 m/s.\na) ¿Cuál es la fuerza normal del suelo sobre el carro?\nb) ¿A qué velocidad máxima puede ir sin despegarse?\nc) En la base de un valle (mismo radio), ¿cuál sería la fuerza normal?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Dinámica y leyes de Newton",
+    "subtema": "Dinámica circular",
+    "dificultad": "Final",
+    "enunciado": "Una esfera de masa m = 0.5 kg cuelga de una cuerda de 1.2 m y gira en un cono (cónico péndulo) con ángulo θ = 30° respecto a la vertical.\na) Tensión en la cuerda.\nb) Velocidad de la esfera.\nc) Período de revolución."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Dinámica y leyes de Newton",
+    "subtema": "Dinámica circular",
+    "dificultad": "Avanzado",
+    "enunciado": "Un ciclista de masa total 75 kg toma una curva banqueada a ángulo φ con coeficiente de rozamiento estático μₛ = 0.60.\na) A v = 20 m/s, sin rozamiento, ¿qué ángulo φ se necesita para R = 80 m?\nb) Con ese mismo φ y con rozamiento, calcula la velocidad máxima y mínima para no deslizar.\nc) ¿Qué radio de curvatura puede tomar a 120 km/h sin peralte si μₛ = 0.60?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Energía y trabajo",
+    "subtema": "Teorema trabajo-energía",
+    "dificultad": "Parcial",
+    "enunciado": "Una fuerza F = (3x² + 2x) N actúa sobre un objeto que se desplaza de x = 0 a x = 4 m.\na) Calcula el trabajo realizado por F.\nb) Si la masa es 2 kg y parte del reposo, ¿cuál es su velocidad final?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Energía y trabajo",
+    "subtema": "Teorema trabajo-energía",
+    "dificultad": "Final",
+    "enunciado": "Un bloque de 3 kg cae 5 m sobre un resorte de constante k = 800 N/m (parte del reposo).\na) ¿Cuánto se comprime el resorte al detenerse momentáneamente?\nb) ¿Cuál es la velocidad máxima del bloque?\nc) ¿En qué posición alcanza la velocidad máxima?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Energía y trabajo",
+    "subtema": "Teorema trabajo-energía",
+    "dificultad": "Avanzado",
+    "enunciado": "Un bloque de masa m sobre un plano inclinado θ está conectado a un resorte (k) horizontal en la base.\nEl bloque parte del reposo desde una compresión inicial x₀ del resorte.\na) Usando energía, encuentra la velocidad del bloque cuando el resorte está en su posición natural.\nb) ¿A qué altura h sobre la base llega el bloque antes de detenerse?\nc) Analiza el efecto del rozamiento (μₖ) en la altura máxima."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Energía y trabajo",
+    "subtema": "Potencia y eficiencia",
+    "dificultad": "Parcial",
+    "enunciado": "Un motor eleva una carga de 500 kg a 20 m en 40 s.\na) Trabajo realizado.\nb) Potencia promedio del motor.\nc) Si la eficiencia es 75%, ¿qué potencia eléctrica consume?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Energía y trabajo",
+    "subtema": "Potencia y eficiencia",
+    "dificultad": "Final",
+    "enunciado": "Un automóvil de 1500 kg sube una pendiente de 5° a velocidad constante de 90 km/h.\nLa resistencia aerodinámica es F_drag = 0.35v² N (v en m/s).\na) Potencia necesaria del motor.\nb) Si la eficiencia del motor es 30%, calcula el consumo de gasolina en L/100km.\n   (poder calorífico de la gasolina: 34 MJ/L)"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Gravedad y órbitas",
+    "subtema": "Ley de gravitación universal",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula la fuerza gravitacional entre la Tierra (M = 5.97×10²⁴ kg) y la Luna (m = 7.35×10²² kg), separadas por d = 3.84×10⁸ m.\nCompara con el peso de la Luna en la superficie terrestre."
+  },
+  {
+    "materia": "Física General",
+    "tema": "Gravedad y órbitas",
+    "subtema": "Ley de gravitación universal",
+    "dificultad": "Final",
+    "enunciado": "Un satélite orbita la Tierra a h = 400 km sobre la superficie (R_T = 6371 km, M_T = 5.97×10²⁴ kg).\na) Velocidad orbital.\nb) Período.\nc) Energía total del satélite (cinética + gravitacional) si m = 500 kg.\nd) ¿Qué velocidad necesita para escapar desde esa órbita?"
+  },
+  {
+    "materia": "Física General",
+    "tema": "Gravedad y órbitas",
+    "subtema": "Ley de gravitación universal",
+    "dificultad": "Avanzado",
+    "enunciado": "Usando las leyes de Kepler y la gravitación universal:\na) Demuestra que T² ∝ a³ (tercera ley de Kepler) para órbitas circulares.\nb) El planeta Marte tiene período T = 1.88 años. Calcula el semieje mayor de su órbita en UA.\nc) Una sonda espacial debe ir de Tierra a Marte en una órbita de Hohmann.\n   Calcula el incremento de velocidad Δv necesario en la Tierra y en Marte.\n   (v_Tierra = 29.8 km/s, v_Marte = 24.1 km/s)"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Electrostática avanzada",
+    "subtema": "Ley de Gauss",
+    "dificultad": "Parcial",
+    "enunciado": "Una esfera conductora de radio R = 0.05 m tiene carga Q = 2 μC.\nUsa la Ley de Gauss para encontrar E:\na) Para r > R (exterior).\nb) Para r < R (interior).\nc) En la superficie.\nd) ¿Cuál es el potencial en la superficie?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Electrostática avanzada",
+    "subtema": "Ley de Gauss",
+    "dificultad": "Final",
+    "enunciado": "Una esfera dieléctrica de radio R tiene densidad de carga volumétrica ρ = ρ₀·r/R.\nUsa la Ley de Gauss para encontrar E(r) para r < R y r > R.\nLuego calcula el potencial V(r) en ambas regiones."
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Electrostática avanzada",
+    "subtema": "Ley de Gauss",
+    "dificultad": "Final",
+    "enunciado": "Un cilindro infinito de radio R tiene carga superficial σ (C/m²).\na) Aplica Gauss para hallar E para r > R y r < R.\nb) Un segundo cilindro coaxial de radio 2R tiene carga -σ.\n   Calcula E en las tres regiones (r < R, R < r < 2R, r > 2R)."
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Electrostática avanzada",
+    "subtema": "Ley de Gauss",
+    "dificultad": "Avanzado",
+    "enunciado": "Una cavidad esférica de radio a está tallada dentro de una esfera sólida dieléctrica de radio b (a < b) con densidad uniforme ρ.\nEl centro de la cavidad está desplazado una distancia d del centro de la esfera.\nDemuestra que el campo eléctrico dentro de la cavidad es uniforme y calcula su valor.\nHint: usa superposición — esfera completa menos esfera pequeña."
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Electrostática avanzada",
+    "subtema": "Potencial eléctrico",
+    "dificultad": "Parcial",
+    "enunciado": "Dos cargas q₁ = +3 μC y q₂ = -1 μC están a 10 cm de distancia.\na) Calcula el potencial en el punto medio entre las cargas.\nb) ¿En qué punto del eje entre las cargas el potencial es cero?\nc) ¿Cuál es la energía potencial del sistema?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Electrostática avanzada",
+    "subtema": "Potencial eléctrico",
+    "dificultad": "Final",
+    "enunciado": "Un anillo de radio R tiene carga total Q distribuida uniformemente.\na) Calcula el potencial V(x) en un punto del eje central a distancia x del centro.\nb) A partir de V(x), deduce el campo eléctrico E(x) sin integrar directamente.\nc) ¿Dónde es máximo E? ¿Cuánto vale?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Corriente y circuitos",
+    "subtema": "Circuitos RC, RL y RLC",
+    "dificultad": "Parcial",
+    "enunciado": "Un capacitor C = 100 μF cargado a V₀ = 50 V se descarga a través de R = 2 kΩ.\na) Constante de tiempo τ.\nb) Voltaje en el capacitor a t = τ, t = 2τ y t = 5τ.\nc) ¿Cuánto tiempo tarda en descargarse al 10% de V₀?\nd) Energía inicial almacenada y energía disipada en R."
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Corriente y circuitos",
+    "subtema": "Circuitos RC, RL y RLC",
+    "dificultad": "Final",
+    "enunciado": "En el circuito RC de carga, V_fuente = 12 V, R = 1.5 kΩ, C = 220 μF.\nEl capacitor empieza descargado.\na) Corriente inicial i(0).\nb) Voltaje en C a t = 0.5 s.\nc) Carga máxima en el capacitor.\nd) ¿Cuánta energía entrega la fuente y cuánta se almacena en C?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Corriente y circuitos",
+    "subtema": "Circuitos RC, RL y RLC",
+    "dificultad": "Avanzado",
+    "enunciado": "Circuito RLC en serie con R = 10 Ω, L = 0.1 H, C = 100 μF.\nEl capacitor tiene carga inicial Q₀ = 1 mC y no hay corriente inicial.\na) ¿Es el sistema subamortiguado, críticamente amortiguado o sobreamortiguado?\nb) Escribe y resuelve la EDO para Q(t).\nc) Calcula la frecuencia de oscilación amortiguada ω_d.\nd) ¿Cuándo se disipa el 50% de la energía inicial?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Corriente y circuitos",
+    "subtema": "Teoremas de red",
+    "dificultad": "Final",
+    "enunciado": "Aplica el Teorema de Thévenin para simplificar el circuito visto desde las terminales A-B:\n  R₁ = 4Ω (serie con fuente de 12 V), R₂ = 6Ω (en paralelo con terminales A-B), R₃ = 3Ω (en serie).\n\na) Encuentra V_Th y R_Th.\nb) ¿Qué resistencia de carga R_L recibe la máxima potencia?\nc) ¿Cuánto vale esa potencia máxima?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Corriente y circuitos",
+    "subtema": "Teoremas de red",
+    "dificultad": "Avanzado",
+    "enunciado": "Un puente de Wheatstone tiene R₁ = 100Ω, R₂ = 150Ω, R₃ = 120Ω, R₄ desconocida.\nSe conecta una fuente de 10 V y un galvanómetro de 50Ω entre los nodos centrales.\na) ¿Para qué valor de R₄ el puente está equilibrado (corriente cero en galvanómetro)?\nb) Con R₄ = 100Ω (desequilibrado), usa Norton para calcular la corriente en el galvanómetro."
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Campo magnético",
+    "subtema": "Ley de Biot-Savart y Ampere",
+    "dificultad": "Parcial",
+    "enunciado": "Un conductor largo y recto lleva corriente I = 5 A.\na) Calcula B a d = 10 cm del conductor.\nb) ¿En qué dirección apunta B usando la regla de la mano derecha?\nc) Si hay un segundo conductor paralelo a 10 cm con I = 3 A en el mismo sentido, calcula la fuerza por unidad de longitud entre ellos. ¿Se atraen o repelen?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Campo magnético",
+    "subtema": "Ley de Biot-Savart y Ampere",
+    "dificultad": "Final",
+    "enunciado": "Una espira circular de radio R = 0.08 m conduce I = 4 A.\na) Campo en el centro de la espira.\nb) Campo en el eje a distancia x = R del centro.\nc) ¿A qué distancia x del centro el campo es la mitad del campo central?"
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Campo magnético",
+    "subtema": "Ley de Biot-Savart y Ampere",
+    "dificultad": "Avanzado",
+    "enunciado": "Un solenoide toroidal de N vueltas tiene radio interior a y exterior b, con corriente I.\na) Usa la Ley de Ampère para encontrar B(r) en las tres regiones: r < a, a < r < b, r > b.\nb) Calcula el flujo magnético total a través de la sección transversal del toroide.\nc) Deduce la inductancia propia L del toroide."
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Campo magnético",
+    "subtema": "Inducción electromagnética",
+    "dificultad": "Final",
+    "enunciado": "Una espira cuadrada de lado L = 0.1 m se mueve con velocidad v = 2 m/s perpendicularmente fuera de un campo B = 0.5 T (uniforme en una región de ancho d = 0.3 m).\na) Calcula la f.e.m. inducida mientras la espira entra al campo.\nb) ¿Cuánto tiempo tarda en cruzar completamente?\nc) Si la resistencia de la espira es R = 0.2 Ω, calcula la corriente y la fuerza de frenado."
+  },
+  {
+    "materia": "Física II — Electricidad y Magnetismo",
+    "tema": "Campo magnético",
+    "subtema": "Inducción electromagnética",
+    "dificultad": "Avanzado",
+    "enunciado": "Dos bobinas coaxiales: la primera con N₁ = 100 vueltas, radio R₁ = 5 cm y corriente i₁(t) = 2 sin(60πt) A.\nLa segunda con N₂ = 200 vueltas, radio R₂ = 3 cm (dentro de la primera).\na) Calcula el flujo mutual y la inductancia mutua M.\nb) f.e.m. inducida en la segunda bobina.\nc) ¿Qué potencia se transfiere de una bobina a la otra?"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones separables",
+    "dificultad": "Parcial",
+    "enunciado": "Resuelve la ecuación separable:\n  dy/dx = xy / (1 + x²)\n  y(0) = 2"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones separables",
+    "dificultad": "Parcial",
+    "enunciado": "Resuelve:\n  (1 + y²) dx + x·y dy = 0\n\nSepara variables y verifica si es exacta."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones separables",
+    "dificultad": "Final",
+    "enunciado": "Resuelve la ecuación separable:\n  y' = (y² - 1) / (x² - 1)\n\nEncuentra la solución general usando fracciones parciales en ambos lados.\nAnaliza los casos especiales y = ±1."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones separables",
+    "dificultad": "Avanzado",
+    "enunciado": "La ecuación logística de crecimiento poblacional es:\n  dP/dt = rP(1 - P/K)\n\na) Resuelve la EDO con condición inicial P(0) = P₀.\nb) Determina el comportamiento cuando t → ∞.\nc) ¿Cuándo es máxima la tasa de crecimiento dP/dt?\nd) Si r = 0.3 año⁻¹, K = 10000 y P₀ = 500, ¿cuándo P = K/2?"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones lineales de primer orden",
+    "dificultad": "Parcial",
+    "enunciado": "Resuelve usando el factor integrante:\n  y' + (3/x)·y = x²\n  y(1) = 2"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones lineales de primer orden",
+    "dificultad": "Parcial",
+    "enunciado": "Encuentra la solución general de:\n  y' - 2y = 4·e^(3x)"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones lineales de primer orden",
+    "dificultad": "Final",
+    "enunciado": "Resuelve la EDO lineal:\n  y' + y·cot(x) = 2·cos(x)\n\nFactor integrante: μ = sin(x). Encuentra la solución particular que pasa por (π/2, 0)."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones lineales de primer orden",
+    "dificultad": "Avanzado",
+    "enunciado": "Ley de Newton de enfriamiento/calentamiento:\n  dT/dt = -k(T - T_amb)\n\nUn objeto a 90°C se coloca en un cuarto a 20°C.\na) Resuelve la EDO.\nb) Si a los 5 min tiene 70°C, encuentra k.\nc) ¿Cuándo llega a 30°C?\nd) Si el cuarto también cambia temperatura: T_amb(t) = 20 + t, plantea y resuelve la EDO modificada."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones exactas",
+    "dificultad": "Parcial",
+    "enunciado": "Determina si es exacta y resuélvela:\n  (2xy + 3) dx + (x² - 4y) dy = 0"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones exactas",
+    "dificultad": "Final",
+    "enunciado": "La siguiente ecuación no es exacta. Encuentra el factor integrante μ(x) y resuélvela:\n  (y² + 2y) dx + (xy + 2) dy = 0\n\nHint: calcula (∂M/∂y - ∂N/∂x)/N y verifica que depende solo de x."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de primer orden",
+    "subtema": "Ecuaciones exactas",
+    "dificultad": "Avanzado",
+    "enunciado": "Resuelve la ecuación de Ricatti:\n  y' = 1 + x² - 2xy + y²\n\nSe sabe que y₁ = x es una solución particular.\nUsa la sustitución y = x + 1/v para reducirla a una EDO lineal en v."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de segundo orden",
+    "subtema": "Coeficientes indeterminados",
+    "dificultad": "Parcial",
+    "enunciado": "Resuelve usando coeficientes indeterminados:\n  y'' - 3y' - 4y = 3e^(2x)\n  y(0) = 1, y'(0) = 0"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de segundo orden",
+    "subtema": "Coeficientes indeterminados",
+    "dificultad": "Parcial",
+    "enunciado": "Resuelve:\n  y'' + 2y' + y = 4·cos(2x)\n\nLa solución homogénea tiene raíces repetidas r = -1."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de segundo orden",
+    "subtema": "Coeficientes indeterminados",
+    "dificultad": "Final",
+    "enunciado": "Resuelve la EDO con forzamiento polinomial:\n  y'' - y' - 2y = 3x² - 2x + 1\n\nPropón y_p = Ax² + Bx + C y determina los coeficientes."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de segundo orden",
+    "subtema": "Coeficientes indeterminados",
+    "dificultad": "Avanzado",
+    "enunciado": "Resuelve la EDO con múltiples términos forzantes:\n  y'' + 4y = 3·sin(2x) + 5·e^x - 2x²\n\nNota: sin(2x) causa resonancia. Para esa parte, usa y_p = x(A cos(2x) + B sin(2x)).\nResuelve cada término por separado y suma."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de segundo orden",
+    "subtema": "Variación de parámetros",
+    "dificultad": "Final",
+    "enunciado": "Usa variación de parámetros para resolver:\n  y'' + y = sec(x)\n\nLa solución homogénea es y_h = C₁ cos x + C₂ sin x."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de segundo orden",
+    "subtema": "Variación de parámetros",
+    "dificultad": "Final",
+    "enunciado": "Resuelve por variación de parámetros:\n  y'' - 2y' + y = e^x / x²   (x > 0)\n\nLa homogénea tiene raíz doble r = 1: y_h = (C₁ + C₂x)e^x."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "EDO de segundo orden",
+    "subtema": "Variación de parámetros",
+    "dificultad": "Avanzado",
+    "enunciado": "La ecuación de Euler-Cauchy:\n  x²y'' + xy' - 4y = x³·ln(x)   (x > 0)\n\na) Resuelve la homogénea con la sustitución x = e^t.\nb) Usa variación de parámetros para la particular.\nc) Escribe la solución general."
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "Transformada de Laplace",
+    "subtema": "Transformadas fundamentales",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula las transformadas de Laplace directamente desde la definición:\n  a) L{t·e^(at)}\n  b) L{sin(at)·cos(at)}\n  c) L{t²·u(t-1)} donde u es el escalón unitario"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "Transformada de Laplace",
+    "subtema": "Transformadas fundamentales",
+    "dificultad": "Final",
+    "enunciado": "Usa la transformada de Laplace para resolver:\n  y'' + 5y' + 6y = u(t-2)\n  y(0) = 0, y'(0) = 0\n\nRecuerda: L{u(t-a)·f(t-a)} = e^(-as)·F(s)"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales",
+    "tema": "Transformada de Laplace",
+    "subtema": "Transformadas fundamentales",
+    "dificultad": "Avanzado",
+    "enunciado": "Resuelve el sistema de EDOs con Laplace:\n  x'' + 4x - 2y = 0\n  x + y'' + 3y = 0\n  x(0)=1, x'(0)=0, y(0)=0, y'(0)=1\n\nPlantea el sistema algebraico en X(s) e Y(s), resuelve y aplica la transformada inversa."
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Probabilidad",
+    "subtema": "Fundamentos y conteo",
+    "dificultad": "Parcial",
+    "enunciado": "En una baraja de 52 cartas:\na) ¿Cuántas manos de 5 cartas tienen exactamente 3 ases?\nb) ¿Cuántas manos tienen todas del mismo palo (flush)?\nc) Probabilidad de obtener al menos un as en una mano de 5."
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Probabilidad",
+    "subtema": "Fundamentos y conteo",
+    "dificultad": "Parcial",
+    "enunciado": "Se lanza un dado 4 veces.\na) ¿Cuántas secuencias posibles hay?\nb) Probabilidad de que los 4 resultados sean distintos.\nc) Probabilidad de que la suma sea exactamente 6."
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Probabilidad",
+    "subtema": "Fundamentos y conteo",
+    "dificultad": "Final",
+    "enunciado": "En un grupo de 30 personas:\na) ¿Cuál es la probabilidad de que al menos dos compartan cumpleaños? (paradoja del cumpleaños)\nb) Calcula el resultado numérico.\nc) ¿Cuántas personas se necesitan para que esa probabilidad supere 0.5?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Probabilidad",
+    "subtema": "Probabilidad condicional y Bayes",
+    "dificultad": "Parcial",
+    "enunciado": "Una empresa fabrica chips en tres plantas:\n  A: 40% de la producción, 2% defectuosos\n  B: 35% de la producción, 3% defectuosos\n  C: 25% de la producción, 4% defectuosos\n\na) Probabilidad de que un chip aleatorio sea defectuoso.\nb) Dado que un chip es defectuoso, ¿cuál es la probabilidad de que venga de la planta B? (Bayes)"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Probabilidad",
+    "subtema": "Probabilidad condicional y Bayes",
+    "dificultad": "Final",
+    "enunciado": "Una enfermedad afecta al 0.5% de la población.\nUn test tiene sensibilidad del 98% (positivo dado enfermo) y especificidad del 95% (negativo dado sano).\na) Si el test da positivo, ¿cuál es la probabilidad de estar enfermo?\nb) ¿Qué pasa si el test da negativo? ¿Cuál es la probabilidad de estar sano?\nc) ¿Qué implicaciones tiene esto para el diagnóstico médico?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Probabilidad",
+    "subtema": "Probabilidad condicional y Bayes",
+    "dificultad": "Avanzado",
+    "enunciado": "Cadena de Markov: Un sistema puede estar en estado {A, B, C}.\nMatriz de transición:\n  P = [[0.7, 0.2, 0.1], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]]\n\na) Si el sistema empieza en A, ¿cuál es la probabilidad de estar en C después de 2 pasos?\nb) Encuentra la distribución estacionaria π tal que πP = π.\nc) Interpreta físicamente la distribución estacionaria."
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Variables aleatorias",
+    "subtema": "Distribuciones discretas",
+    "dificultad": "Parcial",
+    "enunciado": "X ~ Binomial(n=10, p=0.3).\na) P(X = 4).\nb) P(X ≤ 3).\nc) E[X] y Var(X).\nd) ¿Cuál es el valor más probable (moda)?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Variables aleatorias",
+    "subtema": "Distribuciones discretas",
+    "dificultad": "Final",
+    "enunciado": "X ~ Poisson(λ = 3.5) modela llegadas por hora a un banco.\na) P(X = 0), P(X ≤ 2), P(X ≥ 5).\nb) Probabilidad de que en 2 horas lleguen menos de 5 clientes.\nc) Si se atiende cada cliente en 10 min y hay 1 cajero, ¿probabilidad de hacer cola?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Variables aleatorias",
+    "subtema": "Distribuciones discretas",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra que la distribución de Poisson es el límite de la binomial cuando n→∞, p→0, con np = λ constante.\n\na) Parte de B(n,p) y toma el límite formalmente.\nb) Demuestra que la suma de dos Poisson independientes (λ₁ y λ₂) es Poisson(λ₁+λ₂).\nc) ¿Qué propiedad algebraica garantiza esto?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Variables aleatorias",
+    "subtema": "Distribuciones continuas",
+    "dificultad": "Parcial",
+    "enunciado": "X ~ Normal(μ=70, σ=10) representa notas de un examen.\na) P(X > 85).\nb) P(60 < X < 80).\nc) Percentil 90 (nota tal que el 90% queda abajo).\nd) Si se aprueban los que saquen más de 65, ¿qué porcentaje aprueba?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Variables aleatorias",
+    "subtema": "Distribuciones continuas",
+    "dificultad": "Final",
+    "enunciado": "X ~ Exponencial(λ = 1/5) modela el tiempo de vida (en años) de un componente.\na) Función de densidad y CDF.\nb) E[X] y Var(X).\nc) P(X > 8) y P(X > 10 | X > 5) (propiedad de falta de memoria).\nd) Si hay 3 componentes en serie, ¿tiempo de vida del sistema?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Variables aleatorias",
+    "subtema": "Distribuciones continuas",
+    "dificultad": "Avanzado",
+    "enunciado": "Sea X con densidad f(x) = c·x^(α-1)·e^(-βx) para x > 0 (distribución Gamma).\na) Encuentra c para que sea una densidad válida (usa la función Gamma Γ(α)).\nb) Calcula E[X] y E[X²], y deduce Var(X).\nc) Demuestra que si X₁,...,Xₙ ~ Exp(λ) iid, entonces Σ Xᵢ ~ Gamma(n, λ).\nd) ¿Para qué valores de α se reduce a una distribución Exponencial? ¿y a una χ²?"
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Inferencia estadística",
+    "subtema": "Estimación",
+    "dificultad": "Final",
+    "enunciado": "Se mide la resistencia de 25 resistencias: x̄ = 98.4 Ω, s = 3.2 Ω.\na) Intervalo de confianza al 95% para la media poblacional μ (distribución t).\nb) ¿Cuántas muestras adicionales se necesitan para que el error sea ≤ 0.5 Ω con 99% de confianza?\nc) IC al 95% para la varianza σ² usando la distribución χ²."
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Inferencia estadística",
+    "subtema": "Estimación",
+    "dificultad": "Avanzado",
+    "enunciado": "Se comparan dos métodos de enseñanza con los siguientes datos:\n  Método A: n₁=15, x̄₁=78.3, s₁=8.2\n  Método B: n₂=12, x̄₂=82.1, s₂=6.9\n\na) Prueba de hipótesis H₀: μ₁=μ₂ vs H₁: μ₁≠μ₂ (α=0.05).\nb) ¿Se puede asumir igual varianza? Prueba de Levene.\nc) IC al 95% para la diferencia de medias.\nd) Calcula el tamaño del efecto (d de Cohen) e interprétalo."
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "tema": "Inferencia estadística",
+    "subtema": "Regresión",
+    "dificultad": "Final",
+    "enunciado": "Datos de temperatura (°C) y consumo de energía (kWh):\n  T:   5, 10, 15, 20, 25, 30, 35\n  E:  42, 38, 31, 24, 22, 28, 36\n\na) Calcula la recta de regresión mínimos cuadrados E = a + bT.\nb) Coeficiente de determinación R².\nc) ¿Es apropiado un modelo lineal? Argumenta basándote en los datos.\nd) Propón un modelo cuadrático y compáralo."
+  },
+  {
+    "materia": "Álgebra Lineal Avanzada",
+    "tema": "Descomposiciones matriciales",
+    "subtema": "Descomposición QR y SVD",
+    "dificultad": "Final",
+    "enunciado": "Aplica el proceso de Gram-Schmidt para ortonormalizar los vectores:\n  v₁ = (1, 1, 0),   v₂ = (1, 0, 1),   v₃ = (0, 1, 1)\n\nEscribe la descomposición QR de la matriz A = [v₁ | v₂ | v₃]."
+  },
+  {
+    "materia": "Álgebra Lineal Avanzada",
+    "tema": "Descomposiciones matriciales",
+    "subtema": "Descomposición QR y SVD",
+    "dificultad": "Avanzado",
+    "enunciado": "Para la matriz A = [[3, 1], [1, 3], [1, 1]]:\na) Calcula AᵀA y sus valores propios.\nb) Encuentra la descomposición SVD: A = UΣVᵀ.\nc) ¿Cuál es el rango de A? ¿La pseudoinversa A⁺?\nd) Usa SVD para resolver el sistema sobredeterminado Ax = b con b = (1,2,1)."
+  },
+  {
+    "materia": "Álgebra Lineal Avanzada",
+    "tema": "Descomposiciones matriciales",
+    "subtema": "Diagonalización y formas cuadráticas",
+    "dificultad": "Final",
+    "enunciado": "Clasifica la cónica dada por la forma cuadrática:\n  Q(x,y) = 5x² - 4xy + 2y² = 36\n\na) Encuentra la matriz A de la forma cuadrática.\nb) Diagonaliza A ortogonalmente: A = QΛQᵀ.\nc) Identifica la cónica (elipse, hipérbola...) y escribe en ejes principales."
+  },
+  {
+    "materia": "Álgebra Lineal Avanzada",
+    "tema": "Descomposiciones matriciales",
+    "subtema": "Diagonalización y formas cuadráticas",
+    "dificultad": "Avanzado",
+    "enunciado": "Sea A una matriz real simétrica 3×3 con valores propios λ₁ < λ₂ < λ₃.\na) Demuestra que los vectores propios correspondientes a valores propios distintos son ortogonales.\nb) Enuncia y demuestra el Teorema de Courant-Fischer (rayleigh quotient):\n   λ_min ≤ xᵀAx/xᵀx ≤ λ_max  para todo x ≠ 0.\nc) Aplícalo para encontrar el mínimo de xᵀAx sujeto a ||x||=1 para A=[[2,1,0],[1,3,1],[0,1,2]]."
+  },
+  {
+    "materia": "Álgebra Lineal Avanzada",
+    "tema": "Espacios con producto interno",
+    "subtema": "Ortogonalidad y proyecciones",
+    "dificultad": "Final",
+    "enunciado": "Sea W = span{(1,1,0,1), (1,0,1,1)} subespacio de ℝ⁴.\na) Ortogonaliza la base con Gram-Schmidt.\nb) Encuentra la proyección ortogonal de v = (2,3,1,4) sobre W.\nc) Calcula la distancia de v a W."
+  },
+  {
+    "materia": "Álgebra Lineal Avanzada",
+    "tema": "Espacios con producto interno",
+    "subtema": "Ortogonalidad y proyecciones",
+    "dificultad": "Avanzado",
+    "enunciado": "En el espacio de funciones C[0,1] con producto interno ⟨f,g⟩ = ∫₀¹ f(x)g(x) dx:\na) Verifica que 1, x, x² son linealmente independientes pero no ortogonales.\nb) Aplica Gram-Schmidt para obtener los primeros 3 polinomios de Legendre en [0,1].\nc) Proyecta f(x) = e^x sobre el espacio generado por {1, x} con ese producto interno."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula el límite:\n  lim(x→2)  (x² - 4) / (x - 2)\n\nIndica qué forma indeterminada aparece y cómo la resuelves."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula el límite:\n  lim(x→-1)  (x³ + 1) / (x + 1)\n\nFactoriza el numerador usando la suma de cubos."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula el límite:\n  lim(x→4)  (√x - 2) / (x - 4)\n\nMultiplica por el conjugado del numerador."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Parcial",
+    "enunciado": "Evalúa el límite:\n  lim(x→0)  (sin 3x) / x\n\nUsa el límite fundamental lim(u→0) sin(u)/u = 1."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Final",
+    "enunciado": "Calcula el límite:\n  lim(x→5)  (x² - 25) / (x² - 3x - 10)\n\nFactoriza numerador y denominador completamente."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Final",
+    "enunciado": "Calcula el límite:\n  lim(x→0)  (1 - cos x) / x²\n\nUsa identidades trigonométricas o el límite notable."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Final",
+    "enunciado": "Evalúa:\n  lim(x→1)  (x^n - 1) / (x - 1)  donde n es un entero positivo.\n\nFactoriza x^n - 1 como producto y simplifica."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula:\n  lim(x→0)  (tan x - sin x) / x³\n\nExpande usando series o manipulación algebraica trigonométrica."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Cálculo de límites algebraicos",
+    "dificultad": "Avanzado",
+    "enunciado": "Determina el valor de k tal que el siguiente límite exista y sea finito:\n  lim(x→2)  (x² + kx - 6) / (x - 2)\n\n¿Cuál es el valor del límite en ese caso?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites unilaterales",
+    "dificultad": "Parcial",
+    "enunciado": "Dada f(x) = { x + 1, si x < 2 ;  x² - 1, si x ≥ 2 }\n\nCalcula lim(x→2⁻) f(x)  y  lim(x→2⁺) f(x). ¿Existe lim(x→2) f(x)?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites unilaterales",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula los límites laterales de f(x) = |x - 3| / (x - 3) cuando x → 3.\n\n¿Existe el límite bilateral? Justifica."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites unilaterales",
+    "dificultad": "Final",
+    "enunciado": "Sea f(x) = { 2x + a, si x ≤ 1 ;  bx² - 1, si x > 1 }\n\nEncuentra los valores de a y b para que lim(x→1) f(x) exista y f sea continua en x = 1."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites unilaterales",
+    "dificultad": "Avanzado",
+    "enunciado": "Analiza los límites laterales de f(x) = floor(x) (función piso) en x = 2.\n\nGeneraliza: ¿en qué puntos no existe lim f(x) para la función piso?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula:\n  lim(x→∞)  (3x² - 2x + 1) / (5x² + 4x - 7)\n\nDivide numerador y denominador por la potencia de x de mayor grado."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Parcial",
+    "enunciado": "Determina las asíntotas horizontales de:\n  f(x) = (2x - 3) / √(x² + 1)\n\nConsidera x → +∞ y x → -∞ por separado."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Final",
+    "enunciado": "Encuentra todas las asíntotas (verticales, horizontales y oblicuas) de:\n  f(x) = (x² - 1) / (x - 2)\n\nPara la asíntota oblicua realiza la división polinomial."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  lim(x→∞)  x·(√(x² + 1) - x)\n\nMultiplica por el conjugado y simplifica."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites al infinito y asíntotas",
+    "dificultad": "Avanzado",
+    "enunciado": "Encuentra la asíntota oblicua de f(x) = x·arctan(x) cuando x → ±∞.\n\nUsa que lim(x→∞) arctan(x) = π/2."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Continuidad y clasificación de discontinuidades",
+    "dificultad": "Parcial",
+    "enunciado": "Analiza la continuidad de f(x) = (x² - 9)/(x - 3) en x = 3.\n\nClasifica la discontinuidad si existe. ¿Se puede extender f para hacerla continua?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Continuidad y clasificación de discontinuidades",
+    "dificultad": "Parcial",
+    "enunciado": "Determina los puntos de discontinuidad de:\n  f(x) = 1/(x² - 5x + 6)\n\nClasifica cada discontinuidad como evitable, de salto o esencial."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Continuidad y clasificación de discontinuidades",
+    "dificultad": "Final",
+    "enunciado": "Sea f(x) = { sin(x)/x, si x ≠ 0 ;  c, si x = 0 }\n\n¿Para qué valor de c es f continua en x = 0?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Continuidad y clasificación de discontinuidades",
+    "dificultad": "Final",
+    "enunciado": "Usa el Teorema del Valor Intermedio para demostrar que la ecuación x³ - 4x + 1 = 0 tiene al menos una raíz en el intervalo (0, 1)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Continuidad y clasificación de discontinuidades",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra que f(x) = x·sin(1/x) para x ≠ 0, y f(0) = 0, es continua en x = 0.\n\nUsa el criterio del Teorema del Emparedado (Sandwich)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula:\n  lim(x→0)  sin(5x) / sin(3x)\n\nUsa el límite fundamental de forma creativa."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  lim(x→0)  (1 - cos 2x) / (x · sin x)\n\nUsa la identidad 1 - cos 2x = 2 sin² x."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Límites trigonométricos",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula:\n  lim(x→0)  (tan x - x) / x³\n\nUsa la expansión de Taylor de tan x alrededor de 0."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Usando la definición de derivada (límite del cociente diferencial), calcula f'(x) para:\n  f(x) = 3x² - 2x + 5"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva usando las reglas básicas:\n  f(x) = 4x⁵ - 3x³ + 7x - 2\n\nIndica qué regla aplicas en cada término."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Encuentra la ecuación de la recta tangente a la curva y = x² - 3x + 2 en el punto donde x = 2."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva el producto usando la regla del producto:\n  f(x) = (x² + 1)(x³ - 2x)\n\nVerifica expandiendo primero y derivando término a término."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Final",
+    "enunciado": "Deriva usando la regla del cociente:\n  f(x) = (3x² - 1) / (2x + 5)\n\nSimplifica el resultado."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Final",
+    "enunciado": "Calcula la derivada de orden superior f'''(x) para:\n  f(x) = x⁴ - 5x³ + 2x"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Definición y reglas básicas",
+    "dificultad": "Avanzado",
+    "enunciado": "Una función f es diferenciable en todo ℝ con f(2) = 3 y f'(2) = -1.\nSea g(x) = [f(x)]² + f(x²). Calcula g'(2)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva usando la regla de la cadena:\n  f(x) = (3x² - 5)⁴\n\nIdentifica la función exterior e interior claramente."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva:\n  f(x) = √(x² + 4x - 1)\n\nEscribe la raíz cuadrada como potencia 1/2 y aplica la regla de la cadena."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Final",
+    "enunciado": "Usa diferenciación implícita para encontrar dy/dx si:\n  x² + y² = 25\n\nLuego encuentra la pendiente de la tangente en el punto (3, 4)."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Final",
+    "enunciado": "Diferenciación implícita:\n  x³ + y³ = 6xy\n\nEncuentra dy/dx y determina los puntos donde la tangente es horizontal."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Regla de la cadena y derivadas implícitas",
+    "dificultad": "Avanzado",
+    "enunciado": "Sea y definida implícitamente por:\n  sin(x + y) = y² · cos x\n\nEncuentra dy/dx mediante diferenciación implícita."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva:\n  (a) f(x) = sin(3x²)\n  (b) g(x) = cos(√x)\n  (c) h(x) = tan(x³ + 1)"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Parcial",
+    "enunciado": "Deriva usando la regla de la cadena:\n  f(x) = e^(x² - 3x)\n  g(x) = ln(sin x)"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Final",
+    "enunciado": "Usa diferenciación logarítmica para derivar:\n  f(x) = x^x\n\nToma logaritmo natural de ambos lados, luego diferencia implícitamente."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Final",
+    "enunciado": "Deriva:\n  f(x) = arctan(2x) + arcsin(x/3)\n\nUsa las fórmulas de derivadas de funciones trigonométricas inversas."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Avanzado",
+    "enunciado": "Deriva usando diferenciación logarítmica:\n  f(x) = (sin x)^(cos x)\n\nSimplifica la expresión de f'(x) lo más posible."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Derivadas de funciones trascendentes",
+    "dificultad": "Avanzado",
+    "enunciado": "Encuentra la derivada de:\n  f(x) = ln|sec x + tan x|\n\n¿Reconoces el resultado?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Parcial",
+    "enunciado": "Una partícula se mueve según s(t) = t³ - 6t² + 9t (metros, segundos).\n\n(a) ¿Cuándo está en reposo?\n(b) ¿Cuándo se mueve hacia adelante?\n(c) Calcula la aceleración en t = 2."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Parcial",
+    "enunciado": "Encuentra los valores extremos locales de:\n  f(x) = x³ - 3x² - 9x + 5\n\nUsa la prueba de la primera derivada para clasificarlos."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Final",
+    "enunciado": "El lado de un cubo crece a razón de 3 cm/s. ¿A qué razón crece el volumen cuando el lado mide 5 cm?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Final",
+    "enunciado": "Un rectángulo tiene perímetro fijo de 40 m. ¿Cuáles dimensiones maximizan el área?\n\nPlantea la función a optimizar, encuentra el dominio y aplica derivadas."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Final",
+    "enunciado": "Usa el Teorema de Rolle para verificar si aplica a:\n  f(x) = x² - 4x + 3  en  [1, 3]\n\nEncuentra el punto c garantizado por el teorema."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Avanzado",
+    "enunciado": "Una lata cilíndrica debe contener 500 cm³. ¿Cuáles dimensiones (radio r y altura h) minimizan la cantidad de material (superficie total)?\n\nExprésalas en función de π y verifica con la segunda derivada."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Aplicaciones: optimización y razones de cambio",
+    "dificultad": "Avanzado",
+    "enunciado": "Una escalera de longitud L descansa contra una pared vertical pasando sobre una caja cúbica de lado a. ¿Cuál es la escalera más corta que puede hacerlo?\n\nExpresa L en función del ángulo θ y minimiza."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Análisis de funciones: concavidad y puntos de inflexión",
+    "dificultad": "Parcial",
+    "enunciado": "Para f(x) = x⁴ - 4x³:\n(a) Encuentra los intervalos de concavidad.\n(b) Determina los puntos de inflexión.\n\nUsa la segunda derivada."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Análisis de funciones: concavidad y puntos de inflexión",
+    "dificultad": "Final",
+    "enunciado": "Traza un bosquejo completo de f(x) = x³/(x² - 1) indicando: dominio, asíntotas, intersecciones, extremos y concavidad."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Diferenciación",
+    "subtema": "Análisis de funciones: concavidad y puntos de inflexión",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra que la función f(x) = e^x es convexa en todo ℝ.\n\nLuego usa esa propiedad para demostrar la desigualdad e^x ≥ 1 + x para todo x."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Regla de L'Hôpital",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula usando la Regla de L'Hôpital:\n  lim(x→0)  (e^x - 1 - x) / x²\n\nIndica la forma indeterminada antes de aplicar la regla."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Regla de L'Hôpital",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  lim(x→∞)  x² · e^(-x)\n\nConvierte la forma indeterminada ∞·0 a una fracción y aplica L'Hôpital."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Límites y continuidad",
+    "subtema": "Regla de L'Hôpital",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula el límite de tipo 1^∞:\n  lim(x→0⁺)  (1 + sin x)^(1/x)\n\nUsa logaritmos y L'Hôpital para evaluar el exponente."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula las siguientes integrales:\n  (a) ∫ (4x³ - 3x² + 2) dx\n  (b) ∫ (1/x² + √x) dx\n  (c) ∫ e^(2x) dx"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Parcial",
+    "enunciado": "Usa sustitución para calcular:\n  ∫ x · (x² + 1)⁵ dx\n\nElige u = x² + 1 y expresa todo en términos de u."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Final",
+    "enunciado": "Calcula usando sustitución trigonométrica:\n  ∫ dx / √(4 - x²)\n\nUsa x = 2 sin θ."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Final",
+    "enunciado": "Resuelve mediante sustitución:\n  ∫ (ln x)² / x  dx\n\n¿Qué sustitución conviene usar?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral indefinida y técnicas básicas",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula usando fracciones parciales:\n  ∫ (2x + 1) / (x² - x - 6)  dx\n\nFactoriza el denominador y descompón en fracciones simples."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula la integral definida:\n  ∫₀³ (x² - 2x + 1) dx\n\nUsa el Teorema Fundamental del Cálculo."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula el área bajo la curva f(x) = sin x en el intervalo [0, π].\n\n¿Por qué el área es diferente de ∫₀^{2π} sin x dx?"
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Final",
+    "enunciado": "Encuentra el área entre las curvas:\n  y = x²  e  y = 2x\n\nEncuentra los puntos de intersección y plantea la integral correctamente."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Final",
+    "enunciado": "Usa el Teorema Fundamental parte 1 para encontrar F'(x) si:\n  F(x) = ∫₁^(x²) √(1 + t³) dt\n\nNo olvides la regla de la cadena."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integral definida y Teorema Fundamental",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula el volumen del sólido generado al rotar alrededor del eje x la región bajo:\n  y = √x  en  [0, 4]\n\nUsa el método del disco: V = π ∫ [f(x)]² dx."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula usando integración por partes:\n  ∫ x · e^x dx\n\nElige u = x y dv = e^x dx."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula:\n  ∫ x · sin x dx\n\nUsa integración por partes con u = x."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  ∫ ln x dx\n\nElige u = ln x y dv = dx."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Final",
+    "enunciado": "Calcula:\n  ∫ x² · cos x dx\n\nNecesitarás aplicar integración por partes dos veces."
+  },
+  {
+    "materia": "Cálculo I",
+    "tema": "Integración",
+    "subtema": "Integración por partes",
+    "dificultad": "Avanzado",
+    "enunciado": "Calcula I = ∫ e^x · sin x dx\n\nAplica integración por partes dos veces y resuelve para I en la ecuación resultante."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Parcial",
+    "enunciado": "Un auto parte del reposo y acelera uniformemente a 4 m/s².\n(a) ¿Qué velocidad alcanza después de 6 s?\n(b) ¿Qué distancia recorre en ese tiempo?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Parcial",
+    "enunciado": "Un tren viaja a 30 m/s y frena uniformemente hasta detenerse en 150 m.\n(a) Calcula la desaceleración.\n(b) ¿Cuánto tiempo tarda en detenerse?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Parcial",
+    "enunciado": "La posición de una partícula es x(t) = 3t² - 12t + 5 (metros, segundos).\n(a) Velocidad en t = 0 y t = 3 s.\n(b) ¿Cuándo está en reposo?\n(c) ¿Cuándo está en x = 0?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Final",
+    "enunciado": "Dos autos A y B están en el mismo punto. A parte con velocidad inicial 10 m/s y aceleración 2 m/s². B parte 4 s después con velocidad inicial 0 y aceleración 6 m/s².\n¿Cuándo y dónde alcanza B a A?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Final",
+    "enunciado": "Un cuerpo cae libremente desde una altura desconocida. Cuando lleva cayendo 2 s pasa por una ventana de 3 m de alto en exactamente 0.4 s.\n¿Desde qué altura se soltó? (g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento rectilíneo uniformemente acelerado",
+    "dificultad": "Avanzado",
+    "enunciado": "La aceleración de una partícula varía como a(t) = 6t - 4 m/s². Si v(0) = 2 m/s y x(0) = 0:\n(a) Encuentra v(t) y x(t).\n(b) ¿Cuándo cambia de dirección?\n(c) ¿Cuál es la posición en ese instante?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Caída libre y movimiento vertical",
+    "dificultad": "Parcial",
+    "enunciado": "Se lanza una pelota verticalmente hacia arriba con v₀ = 20 m/s desde el suelo.\n(a) ¿Cuál es la altura máxima?\n(b) ¿Cuánto tiempo tarda en volver al suelo?\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Caída libre y movimiento vertical",
+    "dificultad": "Parcial",
+    "enunciado": "Se deja caer una piedra desde un puente y toca el agua 3.5 s después.\n(a) ¿A qué altura está el puente?\n(b) ¿Con qué velocidad golpea el agua?\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Caída libre y movimiento vertical",
+    "dificultad": "Final",
+    "enunciado": "Desde un edificio de 80 m se lanza una piedra hacia abajo con v₀ = 15 m/s. Simultáneamente, se lanza otra piedra desde el suelo hacia arriba con v₀ = 30 m/s.\n¿Dónde y cuándo se encuentran?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Caída libre y movimiento vertical",
+    "dificultad": "Avanzado",
+    "enunciado": "Un cohete asciende verticalmente con aceleración constante a = 20 m/s² durante 15 s, luego apaga los motores y continúa como proyectil.\n(a) ¿Cuál es la altura máxima total?\n(b) ¿Cuánto tiempo total está en el aire?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento de proyectiles",
+    "dificultad": "Parcial",
+    "enunciado": "Un proyectil se lanza con v₀ = 40 m/s a 30° sobre la horizontal.\n(a) Velocidad inicial en componentes.\n(b) Tiempo de vuelo.\n(c) Alcance horizontal.\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento de proyectiles",
+    "dificultad": "Parcial",
+    "enunciado": "Se dispara una bala horizontal desde un rifle a 1.5 m del suelo con v₀ = 300 m/s.\n(a) ¿Cuánto tiempo tarda en llegar al suelo?\n(b) ¿A qué distancia horizontal cae?\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento de proyectiles",
+    "dificultad": "Final",
+    "enunciado": "Un proyectil es lanzado desde el nivel del suelo. La altura máxima es 45 m y el alcance es 180 m.\n(a) ¿Cuál es la velocidad inicial?\n(b) ¿Cuál es el ángulo de lanzamiento?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento de proyectiles",
+    "dificultad": "Final",
+    "enunciado": "Un avión vuela horizontalmente a 500 m de altura y 200 m/s. Suelta un paquete.\n(a) ¿Cuánto tarda en llegar al suelo?\n(b) ¿A qué distancia horizontal del punto de suelta cae?\n(c) ¿Cuál es la velocidad al impacto?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento de proyectiles",
+    "dificultad": "Avanzado",
+    "enunciado": "Demuestra que el ángulo que maximiza el alcance de un proyectil lanzado desde el suelo (sin considerar aire) es θ = 45°.\n\nExprés el alcance R en función de θ y deriva para encontrar el máximo."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento circular uniforme y acelerado",
+    "dificultad": "Parcial",
+    "enunciado": "Una rueda gira a 300 rpm.\n(a) Convierte a rad/s.\n(b) Si el radio es 0.5 m, ¿cuál es la velocidad tangencial?\n(c) ¿Cuál es la aceleración centrípeta?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento circular uniforme y acelerado",
+    "dificultad": "Parcial",
+    "enunciado": "Un objeto se mueve en círculo de radio 2 m. Su rapidez aumenta uniformemente de 4 m/s a 8 m/s en 5 s.\n(a) Aceleración tangencial.\n(b) Aceleración centrípeta a t = 3 s.\n(c) Aceleración total a t = 3 s."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento circular uniforme y acelerado",
+    "dificultad": "Final",
+    "enunciado": "Una motocicleta toma una curva circular de radio 80 m con rapidez constante de 20 m/s.\n(a) ¿Cuál es la aceleración centrípeta?\n(b) ¿Cuánto tiempo tarda en completar media vuelta?\n(c) ¿Cuál es el desplazamiento en media vuelta?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento circular uniforme y acelerado",
+    "dificultad": "Avanzado",
+    "enunciado": "La posición angular de un disco es θ(t) = 2t³ - 5t² + 3 rad.\n(a) Velocidad angular ω(t) y aceleración angular α(t).\n(b) ¿En qué instantes la velocidad angular es cero?\n(c) Si el radio es 0.3 m, encuentra la aceleración total en t = 2 s."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento relativo con referenciales no acelerados",
+    "dificultad": "Parcial",
+    "enunciado": "Un bote puede ir a 5 m/s en agua quieta. Cruza un río de 100 m de ancho con corriente de 3 m/s.\n(a) Si apunta perpendicularmente, ¿cuánto tarda y dónde llega?\n(b) ¿A qué ángulo debe apuntar para cruzar en línea recta?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento relativo con referenciales no acelerados",
+    "dificultad": "Final",
+    "enunciado": "Dos trenes viajan en sentidos opuestos en vías paralelas. El tren A va a 80 km/h y mide 200 m. El tren B va a 60 km/h.\n¿Cuánto tiempo tarda el tren B en pasar completamente frente al tren A?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Cinemática de la Partícula",
+    "subtema": "Movimiento relativo con referenciales no acelerados",
+    "dificultad": "Avanzado",
+    "enunciado": "Un piloto quiere volar al norte en un avión con velocidad de 250 km/h (relativa al aire). El viento sopla hacia el este a 60 km/h.\n(a) ¿A qué ángulo debe orientar el avión?\n(b) ¿Cuál es la velocidad real del avión?\n(c) ¿Cuánto tarda en recorrer 500 km al norte?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Leyes de Newton y aplicaciones",
+    "dificultad": "Parcial",
+    "enunciado": "Una caja de 10 kg está sobre una superficie horizontal sin fricción. Se aplica una fuerza horizontal de 50 N.\n(a) Calcula la aceleración.\n(b) Velocidad después de 4 s partiendo del reposo.\n(c) ¿Cuánto recorre en esos 4 s?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Leyes de Newton y aplicaciones",
+    "dificultad": "Parcial",
+    "enunciado": "Una cuerda sostiene una masa de 5 kg en reposo.\n(a) ¿Cuál es la tensión en la cuerda?\n(b) Si hay una segunda cuerda que tira horizontalmente con 20 N, ¿cuánto vale la tensión de la cuerda superior?\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Leyes de Newton y aplicaciones",
+    "dificultad": "Final",
+    "enunciado": "En un sistema Atwood: masa m₁ = 3 kg y m₂ = 5 kg colgadas de una cuerda sobre una polea sin fricción.\n(a) Aceleración del sistema.\n(b) Tensión en la cuerda.\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Leyes de Newton y aplicaciones",
+    "dificultad": "Final",
+    "enunciado": "Una caja de 20 kg se desliza por un plano inclinado a 35°. El coeficiente de fricción cinética es μk = 0.2.\n(a) Dibuja el diagrama de cuerpo libre.\n(b) Calcula la aceleración.\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Leyes de Newton y aplicaciones",
+    "dificultad": "Avanzado",
+    "enunciado": "Un bloque de 4 kg sobre una mesa (μk = 0.3) está unido por cuerda sobre polea a un bloque colgante de 6 kg.\n(a) Aceleración del sistema.\n(b) Tensión en la cuerda.\n(c) ¿Qué μs mínimo mantendría el sistema en reposo?\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Dinámica del movimiento circular",
+    "dificultad": "Parcial",
+    "enunciado": "Un auto de 1200 kg toma una curva horizontal circular de radio 60 m a 20 m/s.\n(a) ¿Cuál es la fuerza centrípeta necesaria?\n(b) ¿Cuál es el coeficiente mínimo de fricción estática?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Dinámica del movimiento circular",
+    "dificultad": "Final",
+    "enunciado": "Un objeto de masa m gira verticalmente atado a una cuerda de longitud L.\n(a) ¿Cuál es la tensión en la parte superior del círculo (velocidad mínima)?\n(b) ¿Cuál es la tensión en la parte inferior?\n(c) ¿Cuál es la velocidad mínima en la cima para mantener la cuerda tensa?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Dinámica de la Partícula",
+    "subtema": "Dinámica del movimiento circular",
+    "dificultad": "Avanzado",
+    "enunciado": "Un satélite orbita la Tierra a altura h = 400 km sobre la superficie.\n(a) Calcula la velocidad orbital.\n(b) Calcula el período orbital.\n(Radio Tierra = 6.37×10⁶ m, M_Tierra = 5.97×10²⁴ kg, G = 6.67×10⁻¹¹ N·m²/kg²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo y Energía",
+    "subtema": "Trabajo y teorema trabajo-energía cinética",
+    "dificultad": "Parcial",
+    "enunciado": "Una fuerza de 80 N a 30° sobre la horizontal desplaza una caja 10 m sobre una superficie horizontal sin fricción.\n(a) ¿Cuánto trabajo realiza la fuerza?\n(b) ¿Cuánto trabajo realiza el peso y la normal?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo y Energía",
+    "subtema": "Trabajo y teorema trabajo-energía cinética",
+    "dificultad": "Parcial",
+    "enunciado": "Un objeto de 5 kg se mueve a 4 m/s. Se le aplica una fuerza neta que lo acelera hasta 10 m/s.\n¿Cuánto trabajo realizó la fuerza neta?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo y Energía",
+    "subtema": "Trabajo y teorema trabajo-energía cinética",
+    "dificultad": "Final",
+    "enunciado": "Una fuerza variable F(x) = 3x² - 2x N actúa sobre un objeto que se mueve de x = 1 m a x = 4 m.\n(a) Calcula el trabajo realizado por F.\n(b) Si el objeto pesa 2 kg y parte de x = 1 con v = 3 m/s, ¿cuál es su velocidad en x = 4?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo y Energía",
+    "subtema": "Potencia",
+    "dificultad": "Parcial",
+    "enunciado": "Un motor eleva una carga de 500 kg a razón de 2 m/s.\n(a) ¿Qué potencia desarrolla?\n(b) Exprésala en HP (1 HP = 746 W).\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo y Energía",
+    "subtema": "Energía potencial y conservación de energía",
+    "dificultad": "Parcial",
+    "enunciado": "Una pelota de 0.5 kg se lanza hacia arriba con v₀ = 15 m/s.\n(a) Energía cinética inicial.\n(b) Altura máxima usando conservación de energía.\n(c) Velocidad cuando está a 5 m de altura.\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo y Energía",
+    "subtema": "Energía potencial y conservación de energía",
+    "dificultad": "Final",
+    "enunciado": "Un bloque de 2 kg comprime un resorte (k = 800 N/m) 0.15 m y se suelta en una superficie sin fricción.\n(a) ¿Cuál es la velocidad máxima del bloque?\n(b) Si hay una pendiente, ¿a qué altura sube?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Trabajo y Energía",
+    "subtema": "Energía potencial y conservación de energía",
+    "dificultad": "Avanzado",
+    "enunciado": "Una montaña rusa parte del reposo en la cima A (h = 40 m). En el punto B (h = 15 m) el coeficiente de fricción es μk = 0.1 sobre una trayectoria horizontal de 20 m.\n(a) Velocidad en B sin fricción.\n(b) Velocidad en B con fricción.\n(c) ¿A qué altura C llega después de B?\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Momento Lineal e Impulso",
+    "subtema": "Impulso y cantidad de movimiento",
+    "dificultad": "Parcial",
+    "enunciado": "Una pelota de béisbol (0.145 kg) viaja a 40 m/s y es golpeada de vuelta a 55 m/s.\n(a) ¿Cuál es el cambio en la cantidad de movimiento?\n(b) Si el contacto duró 0.002 s, ¿cuál fue la fuerza promedio?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Momento Lineal e Impulso",
+    "subtema": "Conservación del momento lineal",
+    "dificultad": "Parcial",
+    "enunciado": "Un patinador de 60 kg lanza horizontalmente una piedra de 2 kg a 8 m/s. Si estaba en reposo, ¿cuál es la velocidad del patinador después del lanzamiento?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Momento Lineal e Impulso",
+    "subtema": "Colisiones elásticas e inelásticas",
+    "dificultad": "Final",
+    "enunciado": "Una bola de billar A (0.5 kg, 3 m/s) choca frontalmente con la bola B (0.5 kg, en reposo) en una colisión perfectamente elástica.\n(a) Velocidades finales de A y B.\n(b) Verifica que se conservan energía cinética y momento lineal."
+  },
+  {
+    "materia": "Física I",
+    "tema": "Momento Lineal e Impulso",
+    "subtema": "Colisiones elásticas e inelásticas",
+    "dificultad": "Final",
+    "enunciado": "Un auto de 1000 kg a 20 m/s choca con otro de 1500 kg en reposo. Se enganchan (colisión perfectamente inelástica).\n(a) Velocidad final del sistema.\n(b) Energía cinética perdida.\n(c) ¿Adónde fue esa energía?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Momento Lineal e Impulso",
+    "subtema": "Centro de masa",
+    "dificultad": "Final",
+    "enunciado": "Tres masas: m₁ = 2 kg en (1, 0), m₂ = 3 kg en (4, 0), m₃ = 1 kg en (0, 3).\n(a) Encuentra el centro de masa del sistema.\n(b) Si el sistema se mueve con v_cm = 5 m/s en +x, ¿cuál es el momento total?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Momento Lineal e Impulso",
+    "subtema": "Colisiones elásticas e inelásticas",
+    "dificultad": "Avanzado",
+    "enunciado": "Una bala de 0.02 kg viaja a 400 m/s e impacta un bloque de madera de 5 kg que cuelga de una cuerda (péndulo balístico). La bala queda incrustada.\n(a) Velocidad del sistema tras el impacto.\n(b) Altura máxima que sube el péndulo.\n(g = 9.8 m/s²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación de Cuerpo Rígido",
+    "subtema": "Cinemática de rotación",
+    "dificultad": "Parcial",
+    "enunciado": "Un disco parte del reposo y acelera uniformemente a 2 rad/s².\n(a) ¿Cuál es la velocidad angular después de 10 s?\n(b) ¿Cuántas revoluciones completa en ese tiempo?\n(c) Si el radio es 0.4 m, ¿cuál es la velocidad tangencial en el borde a t = 10 s?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación de Cuerpo Rígido",
+    "subtema": "Momento de inercia",
+    "dificultad": "Parcial",
+    "enunciado": "Calcula el momento de inercia de los siguientes cuerpos respecto a su eje central:\n(a) Disco sólido: M = 4 kg, R = 0.3 m  (I = ½MR²)\n(b) Esfera sólida: M = 2 kg, R = 0.2 m  (I = 2/5 MR²)\n(c) Varilla delgada de longitud L = 1 m, M = 3 kg  (I = 1/12 ML²)"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación de Cuerpo Rígido",
+    "subtema": "Dinámica rotacional",
+    "dificultad": "Final",
+    "enunciado": "Una fuerza de 25 N se aplica tangencialmente al borde de un disco (M = 8 kg, R = 0.5 m).\n(a) Calcula el torque.\n(b) Calcula la aceleración angular.\n(c) ¿Cuál es la aceleración tangencial en el borde?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación de Cuerpo Rígido",
+    "subtema": "Energía cinética rotacional",
+    "dificultad": "Final",
+    "enunciado": "Una esfera sólida (M = 3 kg, R = 0.2 m) rueda sin deslizar hacia abajo por un plano inclinado a 30° de 2 m de longitud.\n(a) Velocidad del centro de masa al llegar abajo.\n(b) ¿Qué fracción de la energía cinética total es rotacional?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación de Cuerpo Rígido",
+    "subtema": "Momentum angular y su conservación",
+    "dificultad": "Final",
+    "enunciado": "Un patinador gira con I₁ = 4 kg·m² y ω₁ = 3 rad/s. Al recoger los brazos, I₂ = 1.5 kg·m².\n(a) ¿Cuál es la nueva velocidad angular?\n(b) ¿Cuánto cambia la energía cinética? ¿Por qué?"
+  },
+  {
+    "materia": "Física I",
+    "tema": "Rotación de Cuerpo Rígido",
+    "subtema": "Momentum angular y su conservación",
+    "dificultad": "Avanzado",
+    "enunciado": "Un disco (M = 5 kg, R = 0.6 m) gira a 10 rad/s. Se deja caer sobre él otro disco idéntico que estaba en reposo (mismo eje).\n(a) ¿Cuál es la velocidad angular final?\n(b) ¿Cuánta energía se perdió?\n(c) ¿A qué se debe esa pérdida de energía?"
+  }
+]
