@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tutor IA — Cálculo & Física</title>
+
+<!-- MathJax -->
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$$'],['\\[','\\]']], processEscapes: true },
+  options: { skipHtmlTags: ['script','noscript','style','textarea'] },
+  startup: { ready() { MathJax.startup.defaultReady(); } }
+};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+<style>
+/* ── Variables ── */
+:root {
+  --bg:       #0d0f14;
+  --panel:    #13161e;
+  --card:     #181c27;
+  --card2:    #1e2333;
+  --border:   #252b3b;
+  --accent:   #4f8ef7;
+  --accent2:  #7c5cfc;
+  --verde:    #3ecf8e;
+  --warn:     #f59e0b;
+  --danger:   #ef4444;
+  --text:     #e2e8f0;
+  --muted:    #64748b;
+  --muted2:   #94a3b8;
+  --mono:     'JetBrains Mono', monospace;
+  --sans:     'Sora', sans-serif;
+  --radius:   10px;
+  --shadow:   0 4px 24px rgba(0,0,0,.4);
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font-family: var(--sans); background: var(--bg); color: var(--text); display: flex; flex-direction: column; overflow: hidden; }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+
+/* ── Titlebar ── */
+#titlebar {
+  display: flex; align-items: center; gap: 12px;
+  padding: 0 20px; height: 52px; min-height: 52px;
+  background: var(--panel); border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
+#titlebar .logo { font-family: var(--mono); font-weight: 700; font-size: 15px; color: var(--accent); letter-spacing: 2px; }
+#titlebar .sub  { font-size: 11px; color: var(--muted); }
+#titlebar .spacer { flex: 1; }
+#timer { font-family: var(--mono); font-size: 13px; color: var(--muted); transition: color .3s; }
+#timer.green  { color: var(--verde); }
+#timer.yellow { color: var(--warn); }
+#timer.red    { color: var(--danger); }
+#btn-notes { background: var(--card); border: 1px solid var(--border); color: var(--muted2); font-size: 12px; padding: 5px 12px; border-radius: 6px; cursor: pointer; transition: all .2s; font-family: var(--sans); }
+#btn-notes:hover, #btn-notes.active { border-color: var(--accent); color: var(--accent); }
+
+/* ── Layout ── */
+#body { display: flex; flex: 1; overflow: hidden; }
+
+/* ── Sidebar ── */
+#sidebar {
+  width: 260px; min-width: 260px; background: var(--panel);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column; overflow-y: auto; overflow-x: hidden;
+}
+
+/* Stats */
+#stats { display: flex; border-bottom: 1px solid var(--border); }
+.stat { flex: 1; padding: 14px 8px; text-align: center; border-right: 1px solid var(--border); }
+.stat:last-child { border-right: none; }
+.stat-n { font-family: var(--mono); font-size: 22px; font-weight: 700; }
+.stat-l { font-size: 9px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+.s-res   { color: var(--verde); }
+.s-int   { color: var(--accent); }
+.s-rach  { color: var(--accent2); }
+
+/* Selectors */
+.sel-section { padding: 12px 14px 0; }
+.sel-label { font-size: 9px; font-weight: 600; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 5px; }
+select {
+  width: 100%; background: var(--card); color: var(--text);
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: 7px 10px; font-size: 12px; font-family: var(--sans);
+  cursor: pointer; appearance: none; margin-bottom: 2px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%2364748b'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 10px center;
+}
+select:focus { outline: none; border-color: var(--accent); }
+
+/* Buttons */
+#btn-nuevo {
+  margin: 14px 14px 6px;
+  background: var(--accent); color: #fff;
+  border: none; border-radius: var(--radius);
+  padding: 11px; font-family: var(--mono); font-size: 12px; font-weight: 700;
+  cursor: pointer; letter-spacing: 1px;
+  transition: background .2s, transform .1s;
+}
+#btn-nuevo:hover { background: var(--accent2); }
+#btn-nuevo:active { transform: scale(.98); }
+#btn-limpiar {
+  margin: 0 14px 10px;
+  background: transparent; color: var(--muted);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 7px; font-size: 11px; font-family: var(--sans);
+  cursor: pointer; transition: all .2s;
+}
+#btn-limpiar:hover { border-color: var(--danger); color: var(--danger); }
+
+.sidebar-divider { height: 1px; background: var(--border); margin: 6px 0; }
+
+/* Pool */
+#pool-count { font-size: 10px; color: var(--muted); padding: 0 14px 10px; }
+
+/* Quick help */
+.qh-title { font-size: 9px; font-weight: 600; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 14px 6px; }
+.qh-btn {
+  display: block; width: 100%;
+  background: transparent; color: var(--muted2);
+  border: none; border-left: 2px solid transparent;
+  padding: 7px 14px; font-size: 11px; font-family: var(--sans);
+  text-align: left; cursor: pointer; transition: all .15s;
+}
+.qh-btn:hover { background: var(--card); color: var(--text); border-left-color: var(--accent); }
+
+/* ── Main ── */
+#main { flex: 1; display: flex; flex-direction: column; overflow: hidden; min-width: 0; }
+
+/* Problem card */
+#prob-card {
+  background: var(--card); border-bottom: 1px solid var(--border);
+  padding: 16px 20px;
+}
+#prob-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+#prob-info { font-size: 11px; color: var(--muted); }
+#prob-badge {
+  font-family: var(--mono); font-size: 10px; font-weight: 700;
+  padding: 3px 8px; border-radius: 4px; letter-spacing: 1px;
+}
+.badge-Parcial   { background: rgba(79,142,247,.15); color: var(--accent); }
+.badge-Final     { background: rgba(245,158,11,.15);  color: var(--warn); }
+.badge-Avanzado  { background: rgba(239,68,68,.15);   color: var(--danger); }
+.badge-empty     { display: none; }
+
+#prob-divider { height: 1px; background: var(--border); margin-bottom: 12px; }
+
+#prob-text {
+  font-family: var(--mono); font-size: 13px; line-height: 1.8;
+  color: var(--text); white-space: pre-wrap; word-break: break-word;
+  max-height: 220px; overflow-y: auto;
+}
+#prob-placeholder { font-size: 13px; color: var(--muted); font-style: italic; }
+
+/* Notes panel */
+#notes-panel {
+  background: var(--card2); border-bottom: 1px solid var(--border);
+  padding: 10px 20px; display: none;
+}
+#notes-panel.open { display: block; }
+#notes-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+#notes-header span { font-size: 10px; font-weight: 600; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
+#btn-clear-notes { background: none; border: none; color: var(--muted); font-size: 11px; cursor: pointer; font-family: var(--sans); }
+#btn-clear-notes:hover { color: var(--danger); }
+#notes-area {
+  width: 100%; background: var(--card); color: var(--text);
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: 8px 10px; font-family: var(--mono); font-size: 12px;
+  resize: vertical; min-height: 60px; max-height: 140px;
+}
+#notes-area:focus { outline: none; border-color: var(--accent); }
+
+/* Chat */
+#chat {
+  flex: 1; overflow-y: auto; padding: 16px 20px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+
+.msg { max-width: 88%; display: flex; flex-direction: column; gap: 4px; animation: fadeUp .25s ease; }
+@keyframes fadeUp { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+
+.msg.ai   { align-self: flex-start; }
+.msg.user { align-self: flex-end; }
+
+.msg-bubble {
+  padding: 12px 16px; border-radius: 12px;
+  font-size: 13.5px; line-height: 1.7;
+  word-break: break-word;
+}
+.msg.ai   .msg-bubble { background: var(--card2); border: 1px solid var(--border); border-bottom-left-radius: 3px; }
+.msg.user .msg-bubble { background: var(--accent); color: #fff; border-bottom-right-radius: 3px; }
+
+.msg-label { font-size: 10px; color: var(--muted); font-family: var(--mono); }
+.msg.user .msg-label { text-align: right; }
+
+/* MathJax overrides */
+.msg-bubble mjx-container { overflow-x: auto; }
+.msg-bubble .MathJax_Display { margin: 8px 0 !important; }
+
+/* Thinking indicator */
+.thinking { display: flex; gap: 5px; align-items: center; padding: 14px 16px; }
+.dot { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); animation: bounce 1.2s infinite; }
+.dot:nth-child(2) { animation-delay: .2s; }
+.dot:nth-child(3) { animation-delay: .4s; }
+@keyframes bounce { 0%,60%,100% { transform:translateY(0); } 30% { transform:translateY(-8px); } }
+
+/* Input */
+#input-bar {
+  background: var(--card); border-top: 1px solid var(--border);
+  padding: 12px 20px; display: flex; gap: 10px; align-items: flex-end;
+}
+#user-input {
+  flex: 1; background: var(--bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 10px 14px; font-family: var(--sans); font-size: 13px;
+  resize: none; min-height: 42px; max-height: 120px; line-height: 1.5;
+}
+#user-input:focus { outline: none; border-color: var(--accent); }
+#user-input::placeholder { color: var(--muted); }
+#btn-send {
+  background: var(--accent); color: #fff;
+  border: none; border-radius: 8px;
+  padding: 10px 18px; font-family: var(--mono); font-size: 12px; font-weight: 700;
+  cursor: pointer; transition: background .2s; white-space: nowrap;
+}
+#btn-send:hover { background: var(--accent2); }
+#btn-send:disabled { background: var(--muted); cursor: not-allowed; }
+.hint { font-size: 10px; color: var(--muted); white-space: nowrap; align-self: center; }
+
+/* Loading overlay */
+#loading {
+  position: fixed; inset: 0; background: var(--bg);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  z-index: 100; gap: 16px; transition: opacity .4s;
+}
+#loading.hidden { opacity: 0; pointer-events: none; }
+#loading .logo-big { font-family: var(--mono); font-size: 28px; font-weight: 700; color: var(--accent); letter-spacing: 4px; }
+#loading .sub-big  { font-size: 13px; color: var(--muted); }
+.spinner {
+  width: 36px; height: 36px; border: 3px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin .7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Responsive */
+/* ── Botón hamburguesa (solo móvil) ── */
+#btn-menu {
+  display: none;
+  background: var(--card); border: 1px solid var(--border);
+  color: var(--muted2); font-size: 18px;
+  width: 34px; height: 34px; border-radius: 6px;
+  cursor: pointer; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ── Overlay fondo cuando sidebar abierto ── */
+#sidebar-overlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.6);
+  z-index: 50;
+}
+#sidebar-overlay.visible { display: block; }
+
+@media (max-width: 700px) {
+  /* Titlebar compacto */
+  #titlebar { padding: 0 12px; gap: 8px; }
+  #titlebar .sub { display: none; }
+  #titlebar #btn-notes { display: none; }
+  #titlebar #utp-logo span { display: none; }
+  #titlebar #utp-logo { padding-left: 8px; }
+  #btn-menu { display: flex; }
+
+  /* Sidebar como drawer desde la izquierda */
+  #sidebar {
+    position: fixed; top: 0; left: 0; bottom: 0;
+    width: 82vw; max-width: 300px;
+    z-index: 100;
+    transform: translateX(-110%);
+    transition: transform .28s cubic-bezier(.4,0,.2,1);
+    padding-top: 52px;
+  }
+  #sidebar.open { transform: translateX(0); }
+
+  /* Main ocupa todo el ancho */
+  #main { width: 100%; }
+
+  /* Problema más compacto */
+  #prob-card { padding: 12px; }
+  #prob-text { max-height: 160px; font-size: 13px; }
+
+  /* Chat */
+  #chat { padding: 12px; }
+  .msg { max-width: 96%; }
+  .msg-bubble { font-size: 13px; padding: 10px 12px; }
+
+  /* Input */
+  #input-row { padding: 10px 12px; gap: 8px; }
+  #user-input { font-size: 13px; }
+
+  /* Botones ayuda rápida más compactos */
+  .qh-btn { font-size: 11px; padding: 7px 10px; }
+
+  /* Dev credit */
+  #dev-credit { font-size: 9px; bottom: 6px; right: 8px; }
+}
+
+/* ── Logo UTP ── */
+#utp-logo {
+  display: flex; align-items: center; gap: 8px;
+  border-left: 1px solid var(--border); padding-left: 14px; margin-left: 4px;
+}
+#utp-logo img {
+  width: 32px; height: 32px; border-radius: 50%;
+  opacity: 0.9; filter: brightness(1.1);
+}
+#utp-logo span {
+  font-size: 10px; color: var(--muted); line-height: 1.3;
+  font-family: var(--sans);
+}
+</style>
+</head>
+<body>
+
+<!-- Loading -->
+<div id="loading">
+  <div class="logo-big">TUTOR IA</div>
+  <div class="spinner"></div>
+  <div class="sub-big">Cargando problemas…</div>
+</div>
+
+<!-- Titlebar -->
+<div id="titlebar">
+  <button id="btn-menu" title="Menú">☰</button>
+  <span style="font-size:18px">⚛</span>
+  <span class="logo">TUTOR IA</span>
+  <span class="sub">Cálculo · Física · Álgebra · EDO · Probabilidad</span>
+  <div class="spacer"></div>
+  <button id="btn-notes">📝 Notas</button>
+  <span>⏱</span>
+  <span id="timer">00:00</span>
+  <div id="utp-logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Universidad_Tecnol%C3%B3gica_de_Panam%C3%A1.svg/200px-Logo_Universidad_Tecnol%C3%B3gica_de_Panam%C3%A1.svg.png" alt="UTP" title="Universidad Tecnológica de Panamá"/>
+    <span>UTP<br/>2026</span>
+  </div>
+</div>
+
+<!-- Body -->
+<div id="body">
+
+<div id="sidebar-overlay"></div>
+
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div id="stats">
+      <div class="stat"><div class="stat-n s-res" id="n-res">0</div><div class="stat-l">Resueltos</div></div>
+      <div class="stat"><div class="stat-n s-int" id="n-int">0</div><div class="stat-l">Intentos</div></div>
+      <div class="stat"><div class="stat-n s-rach" id="n-rach">0</div><div class="stat-l">Racha</div></div>
+    </div>
+
+    <div class="sel-section">
+      <div class="sel-label">Materia</div>
+      <select id="sel-materia"><option value="Todas">Todas</option></select>
+      <div class="sel-label" style="margin-top:8px">Tema</div>
+      <select id="sel-tema"><option value="Todos">Todos</option></select>
+      <div class="sel-label" style="margin-top:8px">Subtema</div>
+      <select id="sel-subtema"><option value="Todos">Todos</option></select>
+      <div class="sel-label" style="margin-top:8px">Dificultad</div>
+      <select id="sel-dif">
+        <option>Todas</option>
+        <option>Parcial</option>
+        <option>Final</option>
+        <option>Avanzado</option>
+      </select>
+    </div>
+
+    <button id="btn-nuevo">⟳ &nbsp;NUEVO PROBLEMA</button>
+    <button id="btn-limpiar">✕ Limpiar conversación</button>
+    <div class="sidebar-divider"></div>
+    <div id="pool-count">Cargando…</div>
+    <div class="sidebar-divider"></div>
+
+    <div class="qh-title">Ayuda rápida</div>
+    <button class="qh-btn" data-msg="Dame solo una pista para saber por dónde empezar, sin revelar la solución.">💡 Pista inicial</button>
+    <button class="qh-btn" data-msg="¿Qué fórmulas y resultados necesito para este problema? Explica cada variable con notación matemática clara.">📐 Fórmulas clave</button>
+    <button class="qh-btn" data-msg="Explícame el concepto teórico detrás de este problema con rigor universitario.">📖 Explica el concepto</button>
+    <button class="qh-btn" data-msg="Guíame paso a paso sin darme la respuesta final directamente.">🔢 Paso a paso</button>
+    <button class="qh-btn" data-msg="Muéstrame la solución completa y detallada paso a paso con toda la notación matemática.">✅ Solución completa</button>
+    <button class="qh-btn" data-msg="Revisa mi planteamiento e identifica dónde está el error o qué me falta.">⚠️ Error en mi solución</button>
+    <button class="qh-btn" data-msg="No entendí nada. Empieza desde los conceptos más básicos relacionados con este problema.">🆘 Desde cero</button>
+    <button class="qh-btn" data-msg="Propón un problema similar de menor dificultad para practicar el concepto.">🔗 Problema similar</button>
+  </div>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Problem card -->
+    <div id="prob-card">
+      <div id="prob-meta">
+        <span id="prob-info">Selecciona materia y dificultad, luego presiona ⟳ Nuevo Problema</span>
+        <span id="prob-badge" class="badge-empty"></span>
+      </div>
+      <div id="prob-divider"></div>
+      <div id="prob-text">
+        <span id="prob-placeholder">El enunciado del problema aparecerá aquí…</span>
+      </div>
+    </div>
+
+    <!-- Notes -->
+    <div id="notes-panel">
+      <div id="notes-header">
+        <span>📝 Mis notas</span>
+        <button id="btn-clear-notes">Limpiar</button>
+      </div>
+      <textarea id="notes-area" placeholder="Escribe aquí tus apuntes mientras resuelves…"></textarea>
+    </div>
+
+    <!-- Chat -->
+    <div id="chat"></div>
+
+    <!-- Input -->
+    <div id="input-bar">
+      <textarea id="user-input" rows="1" placeholder="Escribe tu solución o pregunta… (Enter envía, Shift+Enter = nueva línea)"></textarea>
+      <button id="btn-send">Enviar</button>
+      <span class="hint">↵ Enter</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ── State ────────────────────────────────────────────────────────
+let PROBLEMAS = [];       // [{materia,tema,subtema,dificultad,enunciado}]
+let USADOS    = new Set();
+let currentProb = null;
+let history     = [];     // [{role,content}]
+let stats = { resueltos:0, intentos:0, racha:0 };
+let timerInterval = null, timerStart = null;
+let notesOpen = false;
+
+// ── Load problems from local API ─────────────────────────────────
+async function loadProblemas() {
+  try {
+    const res  = await fetch('/api/problemas');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    PROBLEMAS = await res.json();
+    return PROBLEMAS.length > 0;
+  } catch(e) {
+    console.error("Error cargando problemas:", e);
+    return false;
+  }
+}
+
+// Simple CSV parser (handles quoted fields with commas/newlines)
+function parseCSV(text) {
+  const rows = []; let row = []; let field = ''; let inQ = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i], next = text[i+1];
+    if (inQ) {
+      if (c === '"' && next === '"') { field += '"'; i++; }
+      else if (c === '"') { inQ = false; }
+      else { field += c; }
+    } else {
+      if (c === '"') { inQ = true; }
+      else if (c === ',') { row.push(field); field = ''; }
+      else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+      else if (c === '\r') {}
+      else { field += c; }
+    }
+  }
+  if (field || row.length) { row.push(field); rows.push(row); }
+  return rows.filter(r => r.some(c => c.trim()));
+}
+
+// ── Populate selectors ──────────────────────────────────────────
+function populateSelectors() {
+  const materias = [...new Set(PROBLEMAS.map(p => p.materia))].sort();
+  const selMat = document.getElementById('sel-materia');
+  selMat.innerHTML = '<option value="Todas">Todas</option>';
+  materias.forEach(m => { const o = document.createElement('option'); o.value = m; o.textContent = m; selMat.appendChild(o); });
+  updateTemas(); updatePool();
+}
+
+function updateTemas() {
+  const mat  = document.getElementById('sel-materia').value;
+  const pool = mat === 'Todas' ? PROBLEMAS : PROBLEMAS.filter(p => p.materia === mat);
+  const temas = [...new Set(pool.map(p => p.tema))].sort();
+  const sel = document.getElementById('sel-tema');
+  sel.innerHTML = '<option value="Todos">Todos</option>';
+  temas.forEach(t => { const o = document.createElement('option'); o.value = t; o.textContent = t; sel.appendChild(o); });
+  updateSubtemas();
+}
+
+function updateSubtemas() {
+  const mat  = document.getElementById('sel-materia').value;
+  const tema = document.getElementById('sel-tema').value;
+  let pool = PROBLEMAS;
+  if (mat  !== 'Todas') pool = pool.filter(p => p.materia === mat);
+  if (tema !== 'Todos') pool = pool.filter(p => p.tema === tema);
+  const subs = [...new Set(pool.map(p => p.subtema))].sort();
+  const sel = document.getElementById('sel-subtema');
+  sel.innerHTML = '<option value="Todos">Todos</option>';
+  subs.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; sel.appendChild(o); });
+  updatePool();
+}
+
+function updatePool() {
+  const candidatos = getCandidatos();
+  document.getElementById('pool-count').textContent =
+    `${candidatos.length} problemas disponibles  (${USADOS.size} usados)`;
+}
+
+function getCandidatos() {
+  const mat  = document.getElementById('sel-materia').value;
+  const tema = document.getElementById('sel-tema').value;
+  const sub  = document.getElementById('sel-subtema').value;
+  const dif  = document.getElementById('sel-dif').value;
+  return PROBLEMAS.filter(p => {
+    if (mat  !== 'Todas' && p.materia   !== mat)  return false;
+    if (tema !== 'Todos' && p.tema      !== tema) return false;
+    if (sub  !== 'Todos' && p.subtema   !== sub)  return false;
+    if (dif  !== 'Todas' && p.dificultad !== dif) return false;
+    return true;
+  });
+}
+
+// ── Timer ────────────────────────────────────────────────────────
+function startTimer() {
+  stopTimer();
+  timerStart = Date.now();
+  const el = document.getElementById('timer');
+  timerInterval = setInterval(() => {
+    const s = Math.floor((Date.now() - timerStart) / 1000);
+    const m = Math.floor(s / 60), sec = s % 60;
+    el.textContent = `${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;
+    el.className = s < 120 ? 'green' : s < 300 ? 'yellow' : 'red';
+  }, 1000);
+}
+function stopTimer() {
+  clearInterval(timerInterval);
+  document.getElementById('timer').textContent = '00:00';
+  document.getElementById('timer').className = '';
+}
+
+// ── New problem ──────────────────────────────────────────────────
+function nuevoProblem() {
+  let candidatos = getCandidatos().filter(p => !USADOS.has(probKey(p)));
+  if (candidatos.length === 0) {
+    USADOS.clear();
+    candidatos = getCandidatos();
+    if (candidatos.length === 0) { alert("No hay problemas para los filtros seleccionados."); return; }
+  }
+  const p = candidatos[Math.floor(Math.random() * candidatos.length)];
+  USADOS.add(probKey(p));
+  currentProb = p;
+  history = [];
+  renderProblem(p);
+  clearChat();
+  startTimer();
+  updatePool();
+  addMsg('ai',
+    `**Nuevo problema cargado.**\n\n` +
+    `📚 **${p.materia}** › ${p.tema} › ${p.subtema}\n` +
+    `🎯 Dificultad: **${p.dificultad}**\n\n` +
+    `Lee el enunciado arriba y cuando estés listo escribe tu planteamiento o usa los botones de ayuda.`
+  );
+}
+
+function probKey(p) { return `${p.materia}|${p.tema}|${p.subtema}|${p.enunciado.slice(0,40)}`; }
+
+function renderProblem(p) {
+  document.getElementById('prob-info').textContent =
+    `${p.materia} › ${p.tema} › ${p.subtema}`;
+  const badge = document.getElementById('prob-badge');
+  badge.textContent = p.dificultad.toUpperCase();
+  badge.className = `badge-${p.dificultad}`;
+  const el = document.getElementById('prob-text');
+  el.innerHTML = '';
+  // Render with MathJax
+  el.textContent = p.enunciado;
+  MathJax.typesetPromise([el]).catch(()=>{});
+  document.getElementById('prob-placeholder')?.remove();
+}
+
+// ── Chat ─────────────────────────────────────────────────────────
+function clearChat() {
+  document.getElementById('chat').innerHTML = '';
+}
+
+function addMsg(role, content) {
+  const chat = document.getElementById('chat');
+  const wrap = document.createElement('div');
+  wrap.className = `msg ${role}`;
+
+  const label = document.createElement('div');
+  label.className = 'msg-label';
+  label.textContent = role === 'ai' ? 'Tutor IA' : 'Tú';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'msg-bubble';
+
+  // Convert markdown-ish bold and newlines, then let MathJax handle math
+  bubble.innerHTML = formatMessage(content);
+
+  wrap.appendChild(label);
+  wrap.appendChild(bubble);
+  chat.appendChild(wrap);
+  chat.scrollTop = chat.scrollHeight;
+
+  // Typeset math
+  MathJax.typesetPromise([bubble]).catch(()=>{});
+  return bubble;
+}
+
+function formatMessage(text) {
+  // Bold **text**
+  text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // Newlines
+  text = text.replace(/\n/g, '<br>');
+  return text;
+}
+
+function addThinking() {
+  const chat = document.getElementById('chat');
+  const wrap = document.createElement('div');
+  wrap.className = 'msg ai';
+  wrap.id = 'thinking';
+  const label = document.createElement('div');
+  label.className = 'msg-label';
+  label.textContent = 'Tutor IA';
+  const bubble = document.createElement('div');
+  bubble.className = 'msg-bubble thinking';
+  bubble.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
+  wrap.appendChild(label);
+  wrap.appendChild(bubble);
+  chat.appendChild(wrap);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function removeThinking() {
+  document.getElementById('thinking')?.remove();
+}
+
+// ── Send message ─────────────────────────────────────────────────
+async function sendMessage(text) {
+  if (!text.trim()) return;
+  if (!currentProb) { addMsg('ai','⚠️ Primero carga un problema con el botón **⟳ NUEVO PROBLEMA**.'); return; }
+
+  stats.intentos++;
+  updateStats();
+
+  addMsg('user', text);
+  history.push({ role: 'user', content: text });
+
+  document.getElementById('btn-send').disabled = true;
+  addThinking();
+
+  try {
+    const res = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ history, problema: currentProb })
+    });
+    const data = await res.json();
+    removeThinking();
+
+    if (data.error) {
+      addMsg('ai', `❌ Error: ${data.error}`);
+    } else {
+      const reply = data.reply;
+      addMsg('ai', reply);
+      history.push({ role: 'assistant', content: reply });
+
+      // Detect if solved
+      const solved = /correcto|excelente|muy bien|¡bien|lo lograste|perfecto|solución correcta/i.test(reply);
+      if (solved) {
+        stats.resueltos++;
+        stats.racha++;
+        updateStats();
+      }
+    }
+  } catch(e) {
+    removeThinking();
+    addMsg('ai', `❌ No se pudo conectar con el servidor. Revisa que la app esté desplegada correctamente.\n\n${e.message}`);
+  }
+
+  document.getElementById('btn-send').disabled = false;
+  document.getElementById('user-input').focus();
+}
+
+function updateStats() {
+  document.getElementById('n-res').textContent  = stats.resueltos;
+  document.getElementById('n-int').textContent  = stats.intentos;
+  document.getElementById('n-rach').textContent = stats.racha;
+}
+
+// ── Event listeners ──────────────────────────────────────────────
+document.getElementById('btn-nuevo').addEventListener('click', nuevoProblem);
+document.getElementById('btn-limpiar').addEventListener('click', () => {
+  history = []; clearChat(); stopTimer();
+  addMsg('ai','Chat limpiado. Carga un nuevo problema cuando quieras.');
+});
+
+document.getElementById('btn-send').addEventListener('click', () => {
+  const el = document.getElementById('user-input');
+  sendMessage(el.value);
+  el.value = '';
+  el.style.height = 'auto';
+});
+
+document.getElementById('user-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    document.getElementById('btn-send').click();
+  }
+});
+
+// Auto-resize textarea
+document.getElementById('user-input').addEventListener('input', function() {
+  this.style.height = 'auto';
+  this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+});
+
+document.getElementById('btn-notes').addEventListener('click', () => {
+  notesOpen = !notesOpen;
+  document.getElementById('notes-panel').classList.toggle('open', notesOpen);
+  document.getElementById('btn-notes').classList.toggle('active', notesOpen);
+});
+
+document.getElementById('btn-clear-notes').addEventListener('click', () => {
+  document.getElementById('notes-area').value = '';
+});
+
+// Quick help buttons
+document.querySelectorAll('.qh-btn').forEach(btn => {
+  btn.addEventListener('click', () => sendMessage(btn.dataset.msg));
+});
+
+// Chained selectors
+document.getElementById('sel-materia').addEventListener('change', () => { updateTemas(); updatePool(); });
+document.getElementById('sel-tema').addEventListener('change',    () => { updateSubtemas(); updatePool(); });
+document.getElementById('sel-subtema').addEventListener('change', updatePool);
+document.getElementById('sel-dif').addEventListener('change',     updatePool);
+
+// ── Init ─────────────────────────────────────────────────────────
+(async () => {
+  const ok = await loadProblemas();
+  const loading = document.getElementById('loading');
+  loading.classList.add('hidden');
+  setTimeout(() => loading.remove(), 500);
+
+  if (!ok || PROBLEMAS.length === 0) {
+    addMsg('ai',
+      '⚠️ **No se pudieron cargar los problemas desde Google Sheets.**\n\n' +
+      'Verifica que el Sheet esté publicado como CSV y que la URL en el código sea correcta.'
+    );
+  } else {
+    populateSelectors();
+    addMsg('ai',
+      `¡Bienvenido al **Tutor IA** de Cálculo y Física! 🎓\n\n` +
+      `Se cargaron **${PROBLEMAS.length} problemas** disponibles.\n\n` +
+      `▸ Selecciona materia, tema y dificultad en el panel izquierdo\n` +
+      `▸ Presiona **⟳ NUEVO PROBLEMA** para comenzar\n` +
+      `▸ Escribe tu solución o usa los botones de **Ayuda rápida**\n` +
+      `▸ Las fórmulas se renderizan automáticamente con $\\LaTeX$\n\n` +
+      `El temporizador ⏱ se activa al cargar cada problema. ¡Adelante!`
+    );
+  }
+// ── Menú hamburguesa (móvil) ──────────────────────────────────
+const btnMenu     = document.getElementById('btn-menu');
+const sidebar     = document.getElementById('sidebar');
+const overlay     = document.getElementById('sidebar-overlay');
+
+function openSidebar()  { sidebar.classList.add('open');  overlay.classList.add('visible'); }
+function closeSidebar() { sidebar.classList.remove('open'); overlay.classList.remove('visible'); }
+
+btnMenu.addEventListener('click', () =>
+  sidebar.classList.contains('open') ? closeSidebar() : openSidebar()
+);
+overlay.addEventListener('click', closeSidebar);
+
+// Cerrar sidebar al seleccionar un filtro o presionar Nuevo Problema en móvil
+document.getElementById('btn-nuevo').addEventListener('click', () => {
+  if (window.innerWidth <= 700) closeSidebar();
+});
+['sel-materia','sel-tema','sel-subtema','sel-dif'].forEach(id => {
+  document.getElementById(id)?.addEventListener('change', () => {
+    if (window.innerWidth <= 700) closeSidebar();
+  });
+});
+
+
+
+<style>
+#dev-credit {
+  position: fixed; bottom: 10px; right: 14px;
+  font-family: var(--mono); font-size: 10px;
+  color: var(--muted); opacity: 0.45;
+  letter-spacing: 1px; pointer-events: none;
+  z-index: 999; user-select: none;
+}
+</style>
+<div id="dev-credit">WKGM.Dev</div>
+
+</body>
+</html>
