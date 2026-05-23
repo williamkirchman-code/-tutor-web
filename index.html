@@ -363,9 +363,6 @@ select:focus { outline: none; border-color: var(--accent); }
 </div>
 
 <script>
-// ── Config ──────────────────────────────────────────────────────
-const SHEET_CSV = "https://corsproxy.io/?url=" + encodeURIComponent("https://docs.google.com/spreadsheets/d/e/2PACX-1vQbzsCWAwP353JzpbDMm8fmje9346_czfowKWE2bb4Vwp2_JeqYbaBZnzOsWYc2n7EIO4n4R0LfoedS/pub?gid=0&single=true&output=csv");
-
 // ── State ────────────────────────────────────────────────────────
 let PROBLEMAS = [];       // [{materia,tema,subtema,dificultad,enunciado}]
 let USADOS    = new Set();
@@ -375,31 +372,15 @@ let stats = { resueltos:0, intentos:0, racha:0 };
 let timerInterval = null, timerStart = null;
 let notesOpen = false;
 
-// ── Load problems from Sheet ─────────────────────────────────────
+// ── Load problems from local API ─────────────────────────────────
 async function loadProblemas() {
   try {
-    const res  = await fetch(SHEET_CSV);
-    const text = await res.text();
-    const rows = parseCSV(text);
-    if (rows.length < 2) throw new Error("Sheet vacío");
-    const header = rows[0].map(h => h.trim().toLowerCase());
-    const iMat = header.indexOf('materia');
-    const iTem = header.indexOf('tema');
-    const iSub = header.indexOf('subtema');
-    const iDif = header.indexOf('dificultad');
-    const iEnu = header.indexOf('enunciado');
-    PROBLEMAS = rows.slice(1)
-      .filter(r => r.length > iEnu && r[iEnu].trim())
-      .map(r => ({
-        materia:    r[iMat]?.trim()  || '',
-        tema:       r[iTem]?.trim()  || '',
-        subtema:    r[iSub]?.trim()  || '',
-        dificultad: r[iDif]?.trim()  || 'Parcial',
-        enunciado:  r[iEnu]?.trim().replace(/\\n/g,'\n') || '',
-      }));
-    return true;
+    const res  = await fetch('/api/problemas');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    PROBLEMAS = await res.json();
+    return PROBLEMAS.length > 0;
   } catch(e) {
-    console.error("Sheet error:", e);
+    console.error("Error cargando problemas:", e);
     return false;
   }
 }
