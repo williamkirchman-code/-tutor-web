@@ -3,5 +3,5 @@
   "version": "1.0.0",
   "description": "Tutor IA universitario de Cálculo, Física, EDO y Probabilidad",
   "main": "index.html",
-  "engines": { "node": "18.x" }
+  "engines": { "node": "24.x" }
 }
